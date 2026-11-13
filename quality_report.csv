@@ -1,0 +1,286 @@
+check,table,column,result,passed,detail
+row_count,dim_date,,1948,True,minimum 1
+primary_key_unique,dim_date,date_key,0,True,duplicate keys
+missing_pct_required,dim_date,date_key,0.0,True,
+value_range,dim_date,date_key,0,True,rows outside 20200901..20251231
+missing_pct_required,dim_date,full_date,0.0,True,
+missing_pct_required,dim_date,day_name,0.0,True,
+varchar_length,dim_date,day_name,0,True,values longer than 9
+allowed_values,dim_date,day_name,0,True,rows outside allowed list
+missing_pct_required,dim_date,day_of_week,0.0,True,
+value_range,dim_date,day_of_week,0,True,rows outside 1..7
+missing_pct_required,dim_date,day_of_month,0.0,True,
+value_range,dim_date,day_of_month,0,True,rows outside 1..31
+missing_pct_required,dim_date,month_number,0.0,True,
+value_range,dim_date,month_number,0,True,rows outside 1..12
+missing_pct_required,dim_date,month_name,0.0,True,
+varchar_length,dim_date,month_name,0,True,values longer than 9
+missing_pct_required,dim_date,quarter,0.0,True,
+value_range,dim_date,quarter,0,True,rows outside 1..4
+missing_pct_required,dim_date,year,0.0,True,
+value_range,dim_date,year,0,True,rows outside 2020..2025
+missing_pct_required,dim_date,is_weekend,0.0,True,
+missing_pct_required,dim_date,is_public_holiday,0.0,True,
+missing_pct_nullable,dim_date,holiday_name,96.458,True,nullable by design
+varchar_length,dim_date,holiday_name,0,True,values longer than 40
+missing_pct_required,dim_date,season,0.0,True,
+varchar_length,dim_date,season,0,True,values longer than 5
+allowed_values,dim_date,season,0,True,rows outside allowed list
+row_count,dim_location,,45,True,minimum 1
+primary_key_unique,dim_location,location_key,0,True,duplicate keys
+missing_pct_required,dim_location,location_key,0.0,True,
+missing_pct_required,dim_location,region,0.0,True,
+varchar_length,dim_location,region,0,True,values longer than 20
+allowed_values,dim_location,region,0,True,rows outside allowed list
+missing_pct_required,dim_location,district_code,0.0,True,
+varchar_length,dim_location,district_code,0,True,values longer than 4
+allowed_values,dim_location,district_code,0,True,rows outside allowed list
+missing_pct_required,dim_location,district,0.0,True,
+varchar_length,dim_location,district,0,True,values longer than 30
+allowed_values,dim_location,district,0,True,rows outside allowed list
+missing_pct_required,dim_location,district_capital,0.0,True,
+varchar_length,dim_location,district_capital,0,True,values longer than 20
+allowed_values,dim_location,district_capital,0,True,rows outside allowed list
+missing_pct_required,dim_location,town,0.0,True,
+varchar_length,dim_location,town,0,True,values longer than 30
+missing_pct_required,dim_location,urban_rural,0.0,True,
+varchar_length,dim_location,urban_rural,0,True,values longer than 5
+allowed_values,dim_location,urban_rural,0,True,rows outside allowed list
+missing_pct_required,dim_location,electoral_area,0.0,True,
+varchar_length,dim_location,electoral_area,0,True,values longer than 40
+missing_pct_required,dim_location,latitude,0.0,True,
+value_range,dim_location,latitude,0,True,rows outside 9.5..11.2
+missing_pct_required,dim_location,longitude,0.0,True,
+value_range,dim_location,longitude,0,True,rows outside -3.0..-1.5
+row_count,dim_school,,172,True,minimum 1
+primary_key_unique,dim_school,school_key,0,True,duplicate keys
+missing_pct_required,dim_school,school_key,0.0,True,
+missing_pct_required,dim_school,emis_code,0.0,True,
+varchar_length,dim_school,emis_code,0,True,values longer than 12
+missing_pct_required,dim_school,school_name,0.0,True,
+varchar_length,dim_school,school_name,0,True,values longer than 40
+missing_pct_required,dim_school,school_level,0.0,True,
+varchar_length,dim_school,school_level,0,True,values longer than 7
+allowed_values,dim_school,school_level,0,True,rows outside allowed list
+missing_pct_required,dim_school,ownership,0.0,True,
+varchar_length,dim_school,ownership,0,True,values longer than 7
+allowed_values,dim_school,ownership,0,True,rows outside allowed list
+missing_pct_required,dim_school,gender_type,0.0,True,
+varchar_length,dim_school,gender_type,0,True,values longer than 5
+allowed_values,dim_school,gender_type,0,True,rows outside allowed list
+missing_pct_required,dim_school,boarding_status,0.0,True,
+varchar_length,dim_school,boarding_status,0,True,values longer than 13
+allowed_values,dim_school,boarding_status,0,True,rows outside allowed list
+missing_pct_required,dim_school,free_shs_category,0.0,True,
+varchar_length,dim_school,free_shs_category,0,True,values longer than 14
+allowed_values,dim_school,free_shs_category,0,True,rows outside allowed list
+missing_pct_required,dim_school,has_electricity,0.0,True,
+missing_pct_required,dim_school,has_potable_water,0.0,True,
+missing_pct_required,dim_school,has_girls_toilets,0.0,True,
+missing_pct_required,dim_school,has_ict_lab,0.0,True,
+missing_pct_required,dim_school,has_library,0.0,True,
+missing_pct_required,dim_school,num_classrooms,0.0,True,
+value_range,dim_school,num_classrooms,0,True,rows outside 2..60
+missing_pct_required,dim_school,distance_to_district_capital_km,0.0,True,
+value_range,dim_school,distance_to_district_capital_km,0,True,rows outside 0..80
+missing_pct_required,dim_school,effective_from,0.0,True,
+missing_pct_required,dim_school,effective_to,0.0,True,
+missing_pct_required,dim_school,is_current,0.0,True,
+missing_pct_required,dim_school,version_no,0.0,True,
+value_range,dim_school,version_no,0,True,rows outside 1..5
+row_count,dim_learner,,19111,True,minimum 1
+primary_key_unique,dim_learner,learner_key,0,True,duplicate keys
+missing_pct_required,dim_learner,learner_key,0.0,True,
+missing_pct_required,dim_learner,learner_pseudo_id,0.0,True,
+varchar_length,dim_learner,learner_pseudo_id,0,True,values longer than 12
+missing_pct_required,dim_learner,sex,0.0,True,
+varchar_length,dim_learner,sex,0,True,values longer than 6
+allowed_values,dim_learner,sex,0,True,rows outside allowed list
+missing_pct_required,dim_learner,learner_level,0.0,True,
+varchar_length,dim_learner,learner_level,0,True,values longer than 3
+allowed_values,dim_learner,learner_level,0,True,rows outside allowed list
+missing_pct_required,dim_learner,age_at_entry,0.0,True,
+value_range,dim_learner,age_at_entry,0,True,rows outside 10..22
+missing_pct_required,dim_learner,disability_type,0.0,True,
+varchar_length,dim_learner,disability_type,0,True,values longer than 12
+allowed_values,dim_learner,disability_type,0,True,rows outside allowed list
+missing_pct_required,dim_learner,home_language,0.0,True,
+varchar_length,dim_learner,home_language,0,True,values longer than 8
+allowed_values,dim_learner,home_language,0,True,rows outside allowed list
+missing_pct_required,dim_learner,guardian_occupation,0.0,True,
+varchar_length,dim_learner,guardian_occupation,0,True,values longer than 14
+allowed_values,dim_learner,guardian_occupation,0,True,rows outside allowed list
+missing_pct_required,dim_learner,distance_home_to_school_km,0.0,True,
+value_range,dim_learner,distance_home_to_school_km,0,True,rows outside 0..25
+missing_pct_required,dim_learner,free_shs_beneficiary,0.0,True,
+varchar_length,dim_learner,free_shs_beneficiary,0,True,values longer than 14
+allowed_values,dim_learner,free_shs_beneficiary,0,True,rows outside allowed list
+missing_pct_required,dim_learner,lives_with,0.0,True,
+varchar_length,dim_learner,lives_with,0,True,values longer than 8
+allowed_values,dim_learner,lives_with,0,True,rows outside allowed list
+missing_pct_required,dim_learner,shs_programme,0.0,True,
+varchar_length,dim_learner,shs_programme,0,True,values longer than 20
+allowed_values,dim_learner,shs_programme,0,True,rows outside allowed list
+row_count,dim_subject,,32,True,minimum 1
+primary_key_unique,dim_subject,subject_key,0,True,duplicate keys
+missing_pct_required,dim_subject,subject_key,0.0,True,
+missing_pct_required,dim_subject,subject_code,0.0,True,
+varchar_length,dim_subject,subject_code,0,True,values longer than 8
+missing_pct_required,dim_subject,subject_name,0.0,True,
+varchar_length,dim_subject,subject_name,0,True,values longer than 30
+missing_pct_required,dim_subject,exam_level,0.0,True,
+varchar_length,dim_subject,exam_level,0,True,values longer than 6
+allowed_values,dim_subject,exam_level,0,True,rows outside allowed list
+missing_pct_required,dim_subject,core_or_elective,0.0,True,
+varchar_length,dim_subject,core_or_elective,0,True,values longer than 8
+allowed_values,dim_subject,core_or_elective,0,True,rows outside allowed list
+missing_pct_required,dim_subject,stem_flag,0.0,True,
+row_count,dim_examination,,10,True,minimum 1
+primary_key_unique,dim_examination,exam_key,0,True,duplicate keys
+missing_pct_required,dim_examination,exam_key,0.0,True,
+missing_pct_required,dim_examination,exam_type,0.0,True,
+varchar_length,dim_examination,exam_type,0,True,values longer than 8
+allowed_values,dim_examination,exam_type,0,True,rows outside allowed list
+missing_pct_required,dim_examination,exam_year,0.0,True,
+value_range,dim_examination,exam_year,0,True,rows outside 2021..2025
+missing_pct_required,dim_examination,sitting,0.0,True,
+varchar_length,dim_examination,sitting,0,True,values longer than 8
+allowed_values,dim_examination,sitting,0,True,rows outside allowed list
+missing_pct_required,dim_examination,examining_body,0.0,True,
+varchar_length,dim_examination,examining_body,0,True,values longer than 6
+allowed_values,dim_examination,examining_body,0,True,rows outside allowed list
+missing_pct_required,dim_examination,candidate_class,0.0,True,
+varchar_length,dim_examination,candidate_class,0,True,values longer than 4
+allowed_values,dim_examination,candidate_class,0,True,rows outside allowed list
+missing_pct_required,dim_examination,first_paper_date,0.0,True,
+row_count,dim_teacher,,1039,True,minimum 1
+primary_key_unique,dim_teacher,teacher_key,0,True,duplicate keys
+missing_pct_required,dim_teacher,teacher_key,0.0,True,
+missing_pct_required,dim_teacher,staff_pseudo_id,0.0,True,
+varchar_length,dim_teacher,staff_pseudo_id,0,True,values longer than 10
+missing_pct_required,dim_teacher,sex,0.0,True,
+varchar_length,dim_teacher,sex,0,True,values longer than 6
+allowed_values,dim_teacher,sex,0,True,rows outside allowed list
+missing_pct_required,dim_teacher,highest_qualification,0.0,True,
+varchar_length,dim_teacher,highest_qualification,0,True,values longer than 40
+allowed_values,dim_teacher,highest_qualification,0,True,rows outside allowed list
+missing_pct_required,dim_teacher,is_trained,0.0,True,
+missing_pct_required,dim_teacher,ges_rank,0.0,True,
+varchar_length,dim_teacher,ges_rank,0,True,values longer than 30
+allowed_values,dim_teacher,ges_rank,0,True,rows outside allowed list
+missing_pct_required,dim_teacher,subject_specialism,0.0,True,
+varchar_length,dim_teacher,subject_specialism,0,True,values longer than 30
+missing_pct_required,dim_teacher,years_of_service,0.0,True,
+value_range,dim_teacher,years_of_service,0,True,rows outside 0..35
+missing_pct_required,dim_teacher,teaches_in_home_district,0.0,True,
+missing_pct_required,dim_teacher,employment_type,0.0,True,
+varchar_length,dim_teacher,employment_type,0,True,values longer than 20
+allowed_values,dim_teacher,employment_type,0,True,rows outside allowed list
+row_count,dim_academic_term,,15,True,minimum 1
+primary_key_unique,dim_academic_term,term_key,0,True,duplicate keys
+missing_pct_required,dim_academic_term,term_key,0.0,True,
+missing_pct_required,dim_academic_term,academic_year,0.0,True,
+varchar_length,dim_academic_term,academic_year,0,True,values longer than 9
+missing_pct_required,dim_academic_term,term_number,0.0,True,
+value_range,dim_academic_term,term_number,0,True,rows outside 1..3
+missing_pct_required,dim_academic_term,term_label,0.0,True,
+varchar_length,dim_academic_term,term_label,0,True,values longer than 20
+missing_pct_required,dim_academic_term,term_start_date,0.0,True,
+missing_pct_required,dim_academic_term,term_end_date,0.0,True,
+row_count,fact_exam_result,,162293,True,minimum 5000
+primary_key_unique,fact_exam_result,exam_result_id,0,True,duplicate keys
+missing_pct_required,fact_exam_result,exam_result_id,0.0,True,
+missing_pct_required,fact_exam_result,learner_key,0.0,True,
+fk_validity_pct,fact_exam_result,learner_key,100.0,True,-> dim_learner.learner_key
+missing_pct_required,fact_exam_result,school_key,0.0,True,
+fk_validity_pct,fact_exam_result,school_key,100.0,True,-> dim_school.school_key
+missing_pct_required,fact_exam_result,location_key,0.0,True,
+fk_validity_pct,fact_exam_result,location_key,100.0,True,-> dim_location.location_key
+missing_pct_required,fact_exam_result,subject_key,0.0,True,
+fk_validity_pct,fact_exam_result,subject_key,100.0,True,-> dim_subject.subject_key
+missing_pct_required,fact_exam_result,exam_key,0.0,True,
+fk_validity_pct,fact_exam_result,exam_key,100.0,True,-> dim_examination.exam_key
+missing_pct_required,fact_exam_result,exam_date_key,0.0,True,
+fk_validity_pct,fact_exam_result,exam_date_key,100.0,True,-> dim_date.date_key
+missing_pct_required,fact_exam_result,teacher_key,0.0,True,
+fk_validity_pct,fact_exam_result,teacher_key,100.0,True,-> dim_teacher.teacher_key
+missing_pct_required,fact_exam_result,candidate_index_no,0.0,True,
+varchar_length,fact_exam_result,candidate_index_no,0,True,values longer than 24
+missing_pct_nullable,fact_exam_result,raw_score,1.316,True,nullable by design
+value_range,fact_exam_result,raw_score,0,True,rows outside 0..100
+missing_pct_required,fact_exam_result,grade,0.0,True,
+varchar_length,fact_exam_result,grade,0,True,values longer than 3
+allowed_values,fact_exam_result,grade,0,True,rows outside allowed list
+missing_pct_nullable,fact_exam_result,grade_point,1.316,True,nullable by design
+value_range,fact_exam_result,grade_point,0,True,rows outside 1..9
+missing_pct_required,fact_exam_result,is_passed,0.0,True,
+missing_pct_required,fact_exam_result,is_absent,0.0,True,
+row_count,fact_enrolment,,8505,True,minimum 500
+primary_key_unique,fact_enrolment,enrolment_id,0,True,duplicate keys
+missing_pct_required,fact_enrolment,enrolment_id,0.0,True,
+missing_pct_required,fact_enrolment,school_key,0.0,True,
+fk_validity_pct,fact_enrolment,school_key,100.0,True,-> dim_school.school_key
+missing_pct_required,fact_enrolment,location_key,0.0,True,
+fk_validity_pct,fact_enrolment,location_key,100.0,True,-> dim_location.location_key
+missing_pct_required,fact_enrolment,term_key,0.0,True,
+fk_validity_pct,fact_enrolment,term_key,100.0,True,-> dim_academic_term.term_key
+missing_pct_required,fact_enrolment,snapshot_date_key,0.0,True,
+fk_validity_pct,fact_enrolment,snapshot_date_key,100.0,True,-> dim_date.date_key
+missing_pct_required,fact_enrolment,class_name,0.0,True,
+varchar_length,fact_enrolment,class_name,0,True,values longer than 4
+allowed_values,fact_enrolment,class_name,0,True,rows outside allowed list
+missing_pct_required,fact_enrolment,enrolled_boys,0.0,True,
+value_range,fact_enrolment,enrolled_boys,0,True,rows outside 0..400
+missing_pct_required,fact_enrolment,enrolled_girls,0.0,True,
+value_range,fact_enrolment,enrolled_girls,0,True,rows outside 0..400
+missing_pct_required,fact_enrolment,pupils_with_disability,0.0,True,
+value_range,fact_enrolment,pupils_with_disability,0,True,rows outside 0..50
+missing_pct_required,fact_enrolment,avg_daily_attendance,0.0,True,
+value_range,fact_enrolment,avg_daily_attendance,0,True,rows outside 0..800
+missing_pct_required,fact_enrolment,dropouts_boys,0.0,True,
+value_range,fact_enrolment,dropouts_boys,0,True,rows outside 0..100
+missing_pct_required,fact_enrolment,dropouts_girls,0.0,True,
+value_range,fact_enrolment,dropouts_girls,0,True,rows outside 0..100
+missing_pct_required,fact_enrolment,repeaters,0.0,True,
+value_range,fact_enrolment,repeaters,0,True,rows outside 0..100
+missing_pct_required,fact_enrolment,transfers_in,0.0,True,
+value_range,fact_enrolment,transfers_in,0,True,rows outside 0..50
+missing_pct_required,fact_enrolment,transfers_out,0.0,True,
+value_range,fact_enrolment,transfers_out,0,True,rows outside 0..50
+row_count,fact_staffing,,1710,True,minimum 500
+primary_key_unique,fact_staffing,staffing_id,0,True,duplicate keys
+missing_pct_required,fact_staffing,staffing_id,0.0,True,
+missing_pct_required,fact_staffing,school_key,0.0,True,
+fk_validity_pct,fact_staffing,school_key,100.0,True,-> dim_school.school_key
+missing_pct_required,fact_staffing,location_key,0.0,True,
+fk_validity_pct,fact_staffing,location_key,100.0,True,-> dim_location.location_key
+missing_pct_required,fact_staffing,term_key,0.0,True,
+fk_validity_pct,fact_staffing,term_key,100.0,True,-> dim_academic_term.term_key
+missing_pct_required,fact_staffing,snapshot_date_key,0.0,True,
+fk_validity_pct,fact_staffing,snapshot_date_key,100.0,True,-> dim_date.date_key
+missing_pct_required,fact_staffing,trained_teachers,0.0,True,
+value_range,fact_staffing,trained_teachers,0,True,rows outside 1..200
+missing_pct_required,fact_staffing,untrained_teachers,0.0,True,
+value_range,fact_staffing,untrained_teachers,0,True,rows outside 0..100
+missing_pct_required,fact_staffing,female_teachers,0.0,True,
+value_range,fact_staffing,female_teachers,0,True,rows outside 0..200
+missing_pct_required,fact_staffing,teacher_vacancies,0.0,True,
+value_range,fact_staffing,teacher_vacancies,0,True,rows outside 0..100
+missing_pct_required,fact_staffing,total_enrolment,0.0,True,
+value_range,fact_staffing,total_enrolment,0,True,rows outside 1..5000
+missing_pct_required,fact_staffing,pupil_teacher_ratio,0.0,True,
+value_range,fact_staffing,pupil_teacher_ratio,0,True,rows outside 1..200
+missing_pct_required,fact_staffing,pupil_trained_teacher_ratio,0.0,True,
+value_range,fact_staffing,pupil_trained_teacher_ratio,0,True,rows outside 1..300
+scd2_non_overlapping_contiguous,dim_school,effective_from/to,0,True,
+scd2_one_current_row,dim_school,is_current,0,True,
+scd2_point_in_time,fact_exam_result,school_key,0,True,fact date outside school version validity
+scd2_point_in_time,fact_enrolment,school_key,0,True,fact date outside school version validity
+scd2_point_in_time,fact_staffing,school_key,0,True,fact date outside school version validity
+rule_absent_has_no_score,fact_exam_result,raw_score,0,True,
+rule_absent_not_passed,fact_exam_result,is_passed,0,True,
+rule_attendance_le_roll,fact_enrolment,avg_daily_attendance,0,True,
+reconciliation_enrolment_direct_vs_by_district,fact_enrolment,enrolled_boys+enrolled_girls,381075 vs 381075,True,
+reconciliation_staffing_total_vs_enrolment,fact_staffing,total_enrolment,381075 vs 381075,True,
+reconciliation_raw_score_direct_vs_by_subject,fact_exam_result,raw_score,7992839.3 vs 7992839.3,True,
+reconciliation_candidates_vs_exam_class_roll,dim_learner,learner_key,19111 vs 19111,True,

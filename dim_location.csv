@@ -1,0 +1,46 @@
+location_key,region,district_code,district,district_capital,town,urban_rural,electoral_area,latitude,longitude
+1,Upper West,UW01,Wa Municipal,Wa,Wa,Urban,Wa Electoral Area,10.06,-2.501
+2,Upper West,UW01,Wa Municipal,Wa,Busa,Rural,Busa Electoral Area,10.07752,-2.58448
+3,Upper West,UW01,Wa Municipal,Wa,Charia,Rural,Charia Electoral Area,10.12598,-2.45686
+4,Upper West,UW01,Wa Municipal,Wa,Kperisi,Rural,Kperisi Electoral Area,10.11691,-2.49461
+5,Upper West,UW01,Wa Municipal,Wa,Jonga,Rural,Jonga Electoral Area,10.02766,-2.3954
+6,Upper West,UW02,Wa East,Funsi,Funsi,Urban,Funsi Electoral Area,10.31,-1.96
+7,Upper West,UW02,Wa East,Funsi,Bulenga,Rural,Bulenga Electoral Area,10.29436,-2.11486
+8,Upper West,UW02,Wa East,Funsi,Loggu,Rural,Loggu Electoral Area,10.41567,-1.84052
+9,Upper West,UW02,Wa East,Funsi,Kundungu,Rural,Kundungu Electoral Area,10.39647,-1.91779
+10,Upper West,UW03,Wa West,Wechiau,Wechiau,Urban,Wechiau Electoral Area,9.83,-2.68
+11,Upper West,UW03,Wa West,Wechiau,Dorimon,Rural,Dorimon Electoral Area,9.87835,-2.71499
+12,Upper West,UW03,Wa West,Wechiau,Ga,Rural,Ga Electoral Area,9.77694,-2.6646
+13,Upper West,UW03,Wa West,Wechiau,Vieri,Rural,Vieri Electoral Area,9.77878,-2.64558
+14,Upper West,UW04,Nadowli-Kaleo,Nadowli,Nadowli,Urban,Nadowli Electoral Area,10.37,-2.67
+15,Upper West,UW04,Nadowli-Kaleo,Nadowli,Kaleo,Rural,Kaleo Electoral Area,10.35648,-2.75904
+16,Upper West,UW04,Nadowli-Kaleo,Nadowli,Sankana,Rural,Sankana Electoral Area,10.22337,-2.69245
+17,Upper West,UW04,Nadowli-Kaleo,Nadowli,Takpo,Rural,Takpo Electoral Area,10.42231,-2.59455
+18,Upper West,UW05,Daffiama-Bussie-Issa,Issa,Issa,Urban,Issa Electoral Area,10.3,-2.42
+19,Upper West,UW05,Daffiama-Bussie-Issa,Issa,Daffiama,Rural,Daffiama Electoral Area,10.17273,-2.48084
+20,Upper West,UW05,Daffiama-Bussie-Issa,Issa,Bussie,Rural,Bussie Electoral Area,10.26547,-2.46255
+21,Upper West,UW05,Daffiama-Bussie-Issa,Issa,Fian,Rural,Fian Electoral Area,10.40958,-2.3611
+22,Upper West,UW06,Jirapa,Jirapa,Jirapa,Urban,Jirapa Electoral Area,10.53,-2.7
+23,Upper West,UW06,Jirapa,Jirapa,Ullo,Rural,Ullo Electoral Area,10.59606,-2.82129
+24,Upper West,UW06,Jirapa,Jirapa,Tizza,Rural,Tizza Electoral Area,10.54689,-2.78583
+25,Upper West,UW06,Jirapa,Jirapa,Han,Rural,Han Electoral Area,10.68495,-2.661
+26,Upper West,UW07,Lambussie,Lambussie,Lambussie,Urban,Lambussie Electoral Area,10.86,-2.62
+27,Upper West,UW07,Lambussie,Lambussie,Hamile,Rural,Hamile Electoral Area,10.82494,-2.67016
+28,Upper West,UW07,Lambussie,Lambussie,Karni,Rural,Karni Electoral Area,10.85141,-2.71946
+29,Upper West,UW07,Lambussie,Lambussie,Piina,Rural,Piina Electoral Area,10.96292,-2.64174
+30,Upper West,UW08,Lawra,Lawra,Lawra,Urban,Lawra Electoral Area,10.64,-2.9
+31,Upper West,UW08,Lawra,Lawra,Babile,Rural,Babile Electoral Area,10.71283,-2.91464
+32,Upper West,UW08,Lawra,Lawra,Eremon,Rural,Eremon Electoral Area,10.60718,-2.78793
+33,Upper West,UW08,Lawra,Lawra,Zambo,Rural,Zambo Electoral Area,10.48491,-2.92701
+34,Upper West,UW09,Nandom,Nandom,Nandom,Urban,Nandom Electoral Area,10.85,-2.76
+35,Upper West,UW09,Nandom,Nandom,Ko,Rural,Ko Electoral Area,10.86084,-2.84524
+36,Upper West,UW09,Nandom,Nandom,Puffien,Rural,Puffien Electoral Area,10.88139,-2.70137
+37,Upper West,UW09,Nandom,Nandom,Kokoligu,Rural,Kokoligu Electoral Area,10.77543,-2.64218
+38,Upper West,UW10,Sissala East,Tumu,Tumu,Urban,Tumu Electoral Area,10.88,-1.98
+39,Upper West,UW10,Sissala East,Tumu,Wellembelle,Rural,Wellembelle Electoral Area,11.02064,-1.97201
+40,Upper West,UW10,Sissala East,Tumu,Bujan,Rural,Bujan Electoral Area,10.96842,-2.09745
+41,Upper West,UW10,Sissala East,Tumu,Nabulo,Rural,Nabulo Electoral Area,10.89177,-1.85068
+42,Upper West,UW11,Sissala West,Gwollu,Gwollu,Urban,Gwollu Electoral Area,10.97,-2.22
+43,Upper West,UW11,Sissala West,Gwollu,Zini,Rural,Zini Electoral Area,11.01748,-2.11909
+44,Upper West,UW11,Sissala West,Gwollu,Jeffisi,Rural,Jeffisi Electoral Area,11.11016,-2.15286
+45,Upper West,UW11,Sissala West,Gwollu,Dasima,Rural,Dasima Electoral Area,10.91568,-2.21281

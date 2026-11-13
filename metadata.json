@@ -1,0 +1,305 @@
+{
+  "dataset": "School Performance Data: CSC_307_GRP_01_2026 (Synthetic)",
+  "course": "CSC 307 Fundamentals of Data Mining and Warehousing, UBIDS",
+  "group": 1,
+  "topic": "01 - A Basic and Senior High School Performance Data Warehouse",
+  "sector": "Education",
+  "region": "Upper West",
+  "districts": [
+    "Wa Municipal",
+    "Wa East",
+    "Wa West",
+    "Nadowli-Kaleo",
+    "Daffiama-Bussie-Issa",
+    "Jirapa",
+    "Lambussie",
+    "Lawra",
+    "Nandom",
+    "Sissala East",
+    "Sissala West"
+  ],
+  "synthetic": true,
+  "synthetic_statement": "All records are synthetic. No real learner, teacher, school or examination result is represented.",
+  "licence": "CC BY 4.0",
+  "operational": {
+    "script": "generate_data.py",
+    "script_version": "1.0.0",
+    "random_seed": 307012026,
+    "generated_at": "2026-11-13T19:48:14+00:00",
+    "load_date": "2026-11-13",
+    "coverage": {
+      "calendar": "2020-09-01 to 2025-12-31",
+      "academic_years": [
+        "2020/2021",
+        "2021/2022",
+        "2022/2023",
+        "2023/2024",
+        "2024/2025"
+      ],
+      "exam_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "row_counts": {
+      "dim_date": 1948,
+      "dim_location": 45,
+      "dim_school": 172,
+      "dim_learner": 19111,
+      "dim_subject": 32,
+      "dim_examination": 10,
+      "dim_teacher": 1039,
+      "dim_academic_term": 15,
+      "fact_exam_result": 162293,
+      "fact_enrolment": 8505,
+      "fact_staffing": 1710
+    },
+    "rejected_rows": {
+      "dim_date": 0,
+      "dim_location": 0,
+      "dim_school": 0,
+      "dim_learner": 0,
+      "dim_subject": 0,
+      "dim_examination": 0,
+      "dim_teacher": 0,
+      "dim_academic_term": 0,
+      "fact_exam_result": 0,
+      "fact_enrolment": 0,
+      "fact_staffing": 0
+    },
+    "quality_checks_run": 285,
+    "quality_checks_failed": 0
+  },
+  "schema": {
+    "type": "Constellation (fact constellation / galaxy) star schema",
+    "fact_tables": [
+      "fact_exam_result",
+      "fact_enrolment",
+      "fact_staffing"
+    ],
+    "dimension_tables": [
+      "dim_date",
+      "dim_location",
+      "dim_school",
+      "dim_learner",
+      "dim_subject",
+      "dim_examination",
+      "dim_teacher",
+      "dim_academic_term"
+    ],
+    "conformed_dimensions": [
+      "dim_date",
+      "dim_location",
+      "dim_school",
+      "dim_academic_term"
+    ],
+    "total_columns": 124,
+    "business_attributes_and_measures": 94
+  },
+  "tables": {
+    "dim_date": {
+      "type": "dimension",
+      "grain": "One row per calendar day, 2020-09-01 to 2025-12-31.",
+      "scd": "Type 0 (static)",
+      "primary_key": "date_key",
+      "foreign_keys": {},
+      "row_count": 1948,
+      "columns": 13,
+      "business_rules": [
+        "is_public_holiday: Moveable Christian and Muslim holidays are approximate",
+        "holiday_name: NULL when is_public_holiday is false",
+        "season: Single (unimodal) rainy season in the north"
+      ]
+    },
+    "dim_location": {
+      "type": "dimension",
+      "grain": "One row per town or community in the region's 11 districts (conformed dimension).",
+      "scd": "Type 1",
+      "primary_key": "location_key",
+      "foreign_keys": {},
+      "row_count": 45,
+      "columns": 10,
+      "business_rules": [
+        "urban_rural: District capitals are Urban, all other towns Rural (to confirm in field)",
+        "electoral_area: Placeholder until the real electoral-area list is collected"
+      ]
+    },
+    "dim_school": {
+      "type": "dimension",
+      "grain": "One row per school per version of its facilities; a new row is added when a tracked attribute changes.",
+      "scd": "Type 2",
+      "primary_key": "school_key",
+      "foreign_keys": {},
+      "row_count": 172,
+      "columns": 19,
+      "business_rules": [
+        "emis_code: Format UWnn-L-sss; stable across versions",
+        "school_level: Primary schools include attached KG1-KG2 classes",
+        "free_shs_category: Not applicable for Primary, JHS and private schools",
+        "effective_from: SCD2 housekeeping",
+        "effective_to: Versions of one emis_code never overlap",
+        "is_current: Exactly one current row per emis_code"
+      ]
+    },
+    "dim_learner": {
+      "type": "dimension",
+      "grain": "One row per examination candidate (pseudonymised).",
+      "scd": "Type 1",
+      "primary_key": "learner_key",
+      "foreign_keys": {},
+      "row_count": 19111,
+      "columns": 12,
+      "business_rules": [
+        "learner_pseudo_id: Random token; never a real index or Ghana Card number",
+        "free_shs_beneficiary: Not applicable for JHS candidates",
+        "shs_programme: Not applicable for JHS candidates"
+      ]
+    },
+    "dim_subject": {
+      "type": "dimension",
+      "grain": "One row per examination subject per examination level.",
+      "scd": "Type 1",
+      "primary_key": "subject_key",
+      "foreign_keys": {},
+      "row_count": 32,
+      "columns": 6,
+      "business_rules": []
+    },
+    "dim_examination": {
+      "type": "dimension",
+      "grain": "One row per examination type per year per sitting.",
+      "scd": "Type 1",
+      "primary_key": "exam_key",
+      "foreign_keys": {},
+      "row_count": 10,
+      "columns": 7,
+      "business_rules": [
+        "sitting: BECE has a single sitting; school WASSCE is May/June"
+      ]
+    },
+    "dim_teacher": {
+      "type": "dimension",
+      "grain": "One row per subject teacher in an examination-sitting school (current snapshot).",
+      "scd": "Type 1",
+      "primary_key": "teacher_key",
+      "foreign_keys": {},
+      "row_count": 1039,
+      "columns": 10,
+      "business_rules": [
+        "is_trained: Untrained = no Diploma/B.Ed/PGDE"
+      ]
+    },
+    "dim_academic_term": {
+      "type": "dimension",
+      "grain": "One row per academic term.",
+      "scd": "Type 0 (static)",
+      "primary_key": "term_key",
+      "foreign_keys": {},
+      "row_count": 15,
+      "columns": 6,
+      "business_rules": []
+    },
+    "fact_exam_result": {
+      "type": "fact",
+      "grain": "One row per candidate per subject per examination.",
+      "scd": "n/a",
+      "primary_key": "exam_result_id",
+      "foreign_keys": {
+        "learner_key": "dim_learner",
+        "school_key": "dim_school",
+        "location_key": "dim_location",
+        "subject_key": "dim_subject",
+        "exam_key": "dim_examination",
+        "exam_date_key": "dim_date",
+        "teacher_key": "dim_teacher"
+      },
+      "row_count": 162293,
+      "columns": 14,
+      "business_rules": [
+        "school_key: Point-in-time join to dim_school",
+        "candidate_index_no: Prefix SYN- marks it as synthetic",
+        "raw_score: NULL only when is_absent is true",
+        "grade: BECE cut-offs 80/70/65/60/55/50/45/40; WASSCE 75/70/65/60/55/50/45/40",
+        "grade_point: NULL only when is_absent is true",
+        "is_passed: Pass threshold to confirm with WAEC/DEO in field"
+      ],
+      "usage": {
+        "questions": [
+          "Which districts have the widest gap between girls' and boys' BECE pass rates, and is it narrowing?",
+          "How does the pupil-trained-teacher ratio relate to WASSCE core-subject passes? (join fact_staffing on school and term 3 of the exam year)",
+          "Do trained subject teachers and schools with ICT labs get better Computing/STEM results?"
+        ],
+        "measures": [
+          "Pass rate = AVG(is_passed) over non-absent rows",
+          "Mean raw_score",
+          "Absence rate = AVG(is_absent)",
+          "Candidates = COUNT(DISTINCT learner_key)",
+          "Girls-minus-boys pass-rate gap (percentage points)"
+        ]
+      }
+    },
+    "fact_enrolment": {
+      "type": "fact",
+      "grain": "One row per school per class per academic term.",
+      "scd": "n/a",
+      "primary_key": "enrolment_id",
+      "foreign_keys": {
+        "school_key": "dim_school",
+        "location_key": "dim_location",
+        "term_key": "dim_academic_term",
+        "snapshot_date_key": "dim_date"
+      },
+      "row_count": 8505,
+      "columns": 15,
+      "business_rules": [
+        "avg_daily_attendance: Never exceeds enrolled_boys + enrolled_girls"
+      ],
+      "usage": {
+        "questions": [
+          "Do schools without electricity or girls' toilets show higher dropout among girls?",
+          "How do enrolment, attendance and dropout vary by district, term and season?",
+          "What is the gender parity index by level and district?"
+        ],
+        "measures": [
+          "Girls' dropout rate = SUM(dropouts_girls) / SUM(enrolled_girls + dropouts_girls)",
+          "Attendance rate = SUM(avg_daily_attendance) / SUM(enrolled_boys + enrolled_girls)",
+          "Gender parity index = SUM(enrolled_girls) / SUM(enrolled_boys)",
+          "Repetition rate"
+        ]
+      }
+    },
+    "fact_staffing": {
+      "type": "fact",
+      "grain": "One row per school per academic term.",
+      "scd": "n/a",
+      "primary_key": "staffing_id",
+      "foreign_keys": {
+        "school_key": "dim_school",
+        "location_key": "dim_location",
+        "term_key": "dim_academic_term",
+        "snapshot_date_key": "dim_date"
+      },
+      "row_count": 1710,
+      "columns": 12,
+      "business_rules": [
+        "teacher_vacancies: Norms: Primary 35, JHS 25, SHS 25 pupils per teacher",
+        "total_enrolment: Must reconcile with fact_enrolment"
+      ],
+      "usage": {
+        "questions": [
+          "Which schools and districts have the highest pupil-trained-teacher ratios?",
+          "Where are teacher vacancies concentrated, and is the share of trained teachers rising?"
+        ],
+        "measures": [
+          "Pupil-trained-teacher ratio",
+          "Share of trained teachers = trained / (trained + untrained)",
+          "Total vacancies",
+          "Female teacher share"
+        ]
+      }
+    }
+  }
+}

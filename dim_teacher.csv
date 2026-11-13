@@ -1,0 +1,1040 @@
+teacher_key,staff_pseudo_id,sex,highest_qualification,is_trained,ges_rank,subject_specialism,years_of_service,teaches_in_home_district,employment_type
+1,TA165C37D,Male,Diploma in Basic Education,True,Senior Superintendent I,English Language,14,False,GES permanent
+2,TAC5BF8C9,Male,Bachelor of Education,True,Assistant Director I,Mathematics,32,False,GES permanent
+3,TF2EBEBE3,Male,Bachelor of Education,True,Assistant Director II,Integrated Science,22,True,GES permanent
+4,TFDA4E08D,Male,Diploma in Basic Education,True,Assistant Director I,Social Studies,32,False,GES permanent
+5,T23E18EBE,Male,Bachelor of Education,True,Assistant Director I,Religious and Moral Education,25,False,GES permanent
+6,TB2C44DD8,Female,Diploma in Basic Education,True,Superintendent I,Computing,3,False,GES permanent
+7,TD3EF45AF,Male,Diploma in Basic Education,True,Assistant Director I,Ghanaian Language,27,False,GES permanent
+8,T7E13742A,Female,Bachelor of Education,True,Assistant Director I,Career Technology,32,True,GES permanent
+9,T895EF8A4,Female,Bachelor of Education,True,Principal Superintendent,Creative Arts and Design,16,False,GES permanent
+10,T16CA39AA,Female,Bachelor of Education,True,Superintendent II,French,2,True,GES permanent
+11,TB2DE78C2,Male,Bachelor of Education,True,Senior Superintendent II,English Language,7,False,GES permanent
+12,TE76E09F0,Male,Master's degree,True,Assistant Director I,Mathematics,29,True,GES permanent
+13,T5ADE998B,Male,Bachelor's degree (non-education),False,Not ranked (untrained),Integrated Science,1,False,Community volunteer
+14,T46D63569,Female,Bachelor's degree + PGDE,True,Assistant Director I,Social Studies,30,True,GES permanent
+15,T497D7B7E,Female,Diploma in Basic Education,True,Superintendent II,Religious and Moral Education,2,True,GES permanent
+16,T615BC284,Female,Bachelor of Education,True,Assistant Director I,Computing,30,True,GES permanent
+17,TFBFBF705,Male,WASSCE/SSSCE,False,Not ranked (untrained),Ghanaian Language,2,False,Community volunteer
+18,T5F4F6712,Male,Diploma in Basic Education,True,Assistant Director II,Career Technology,22,True,GES permanent
+19,TFB515576,Female,Bachelor's degree + PGDE,True,Superintendent I,Creative Arts and Design,5,False,GES permanent
+20,TD597483F,Female,Bachelor of Education,True,Superintendent II,French,1,True,GES permanent
+21,T6C21EC0A,Male,Bachelor of Education,True,Superintendent I,English Language,3,False,GES permanent
+22,TA3D4C205,Female,WASSCE/SSSCE,False,Not ranked (untrained),Mathematics,1,False,Community volunteer
+23,T9D50558A,Female,Bachelor of Education,True,Assistant Director I,Integrated Science,26,False,GES permanent
+24,T21938792,Female,Master's degree,True,Superintendent II,Social Studies,1,False,GES permanent
+25,T437E0D14,Male,Bachelor of Education,True,Superintendent II,Religious and Moral Education,2,False,GES permanent
+26,TD9A0375B,Male,Diploma in Basic Education,True,Assistant Director I,Computing,27,False,GES permanent
+27,T6AB405B4,Female,Bachelor's degree (non-education),False,Not ranked (untrained),Ghanaian Language,3,False,National Service
+28,TAC7C67D1,Female,Bachelor of Education,True,Assistant Director II,Career Technology,21,True,GES permanent
+29,T30131EAA,Female,Bachelor of Education,True,Assistant Director II,Creative Arts and Design,20,False,GES permanent
+30,T6B67D15D,Male,Bachelor of Education,True,Assistant Director II,French,22,True,GES permanent
+31,T90C80397,Male,Bachelor of Education,True,Senior Superintendent II,English Language,10,False,GES permanent
+32,T27539E0D,Male,Bachelor of Education,True,Senior Superintendent I,Mathematics,13,True,GES permanent
+33,TF51BEC06,Female,HND,False,Not ranked (untrained),Integrated Science,2,True,National Service
+34,T6B7EA97B,Male,Diploma in Basic Education,True,Assistant Director I,Social Studies,27,False,GES permanent
+35,TD1AE5F86,Male,Bachelor of Education,True,Superintendent II,Religious and Moral Education,1,True,GES permanent
+36,T6908AA36,Male,Diploma in Basic Education,True,Senior Superintendent II,Computing,9,False,GES permanent
+37,T9DBDCFE5,Female,Bachelor of Education,True,Superintendent I,Ghanaian Language,4,False,GES permanent
+38,TFB1B87AB,Male,Bachelor of Education,True,Assistant Director I,Career Technology,33,False,GES permanent
+39,T4FE5D1CD,Male,Diploma in Basic Education,True,Assistant Director II,Creative Arts and Design,22,True,GES permanent
+40,T84CB701C,Male,Bachelor of Education,True,Assistant Director I,French,25,False,GES permanent
+41,TCD11E5C1,Male,Bachelor of Education,True,Superintendent I,English Language,3,True,GES permanent
+42,T736C0965,Female,Bachelor's degree (non-education),False,Not ranked (untrained),Mathematics,3,True,Community volunteer
+43,TDDFB119B,Male,Diploma in Basic Education,True,Principal Superintendent,Integrated Science,15,False,GES permanent
+44,T3A4C514D,Male,Bachelor of Education,True,Assistant Director II,Social Studies,20,False,GES permanent
+45,TAE288699,Female,Bachelor's degree + PGDE,True,Assistant Director I,Religious and Moral Education,27,True,GES permanent
+46,T9C7DCE08,Male,Diploma in Basic Education,True,Senior Superintendent II,Computing,9,True,GES permanent
+47,TA865F306,Female,Bachelor of Education,True,Superintendent II,Ghanaian Language,1,False,GES permanent
+48,T82407407,Female,Bachelor of Education,True,Senior Superintendent II,Career Technology,7,False,GES permanent
+49,TDA479992,Male,Bachelor of Education,True,Assistant Director I,Creative Arts and Design,28,False,GES permanent
+50,TCE7FF31E,Female,WASSCE/SSSCE,False,Not ranked (untrained),French,2,True,Community volunteer
+51,T59B0664C,Female,Bachelor of Education,True,Assistant Director I,English Language,31,False,GES permanent
+52,T95681D4A,Male,Bachelor of Education,True,Senior Superintendent II,English Language,10,False,GES permanent
+53,T2CFD490F,Male,Bachelor of Education,True,Superintendent II,Core Mathematics,2,True,GES permanent
+54,TBB8D44EE,Female,Master's degree,True,Senior Superintendent I,Core Mathematics,12,True,GES permanent
+55,T848AB280,Male,Bachelor of Education,True,Assistant Director I,Integrated Science,26,True,GES permanent
+56,TAE186D8F,Male,Bachelor of Education,True,Assistant Director II,Integrated Science,24,False,GES permanent
+57,T7EBAF3E9,Female,Master's degree,True,Assistant Director II,Social Studies,22,True,GES permanent
+58,TCD70CD4D,Female,Bachelor of Education,True,Senior Superintendent II,Social Studies,8,False,GES permanent
+59,T4FF0A561,Male,Bachelor of Education,True,Assistant Director II,Animal Husbandry,23,False,GES permanent
+60,TEFEDBE2A,Male,Master's degree,True,Senior Superintendent I,Biology,14,False,GES permanent
+61,TDE65108B,Female,Bachelor of Education,True,Senior Superintendent I,Business Management,11,False,GES permanent
+62,T27AB1479,Female,Bachelor of Education,True,Assistant Director I,Cost Accounting,25,False,GES permanent
+63,TA982FF68,Male,Master's degree,True,Assistant Director I,Chemistry,33,True,GES permanent
+64,T101C9447,Female,Bachelor of Education,True,Assistant Director I,Christian Religious Studies,25,False,GES permanent
+65,T6CCB077F,Male,Bachelor of Education,True,Assistant Director I,Economics,31,False,GES permanent
+66,T171400F1,Male,Bachelor of Education,True,Assistant Director II,Elective Mathematics,23,False,GES permanent
+67,T53A1C9BC,Female,Bachelor of Education,True,Principal Superintendent,Financial Accounting,19,True,GES permanent
+68,TBBEA4710,Male,Bachelor of Education,True,Superintendent II,Food and Nutrition,2,True,GES permanent
+69,T244E80F7,Female,Bachelor of Education,True,Senior Superintendent II,General Agriculture,8,False,GES permanent
+70,T79577195,Male,Bachelor of Education,True,Senior Superintendent I,Geography,12,False,GES permanent
+71,T9B1278EC,Female,Bachelor of Education,True,Superintendent I,General Knowledge in Art,6,False,GES permanent
+72,TBBE477D7,Female,Bachelor of Education,True,Senior Superintendent I,Government,12,True,GES permanent
+73,T9C8DF5D8,Male,Bachelor of Education,True,Principal Superintendent,History,18,False,GES permanent
+74,TE2D19F3E,Male,Bachelor's degree + PGDE,True,Assistant Director II,Literature-in-English,20,True,GES permanent
+75,T56F77A0D,Male,Bachelor's degree + PGDE,True,Principal Superintendent,Management in Living,19,False,GES permanent
+76,T4CA9E01D,Female,Bachelor's degree + PGDE,True,Principal Superintendent,Physics,17,False,GES permanent
+77,T43587DC9,Female,Bachelor's degree + PGDE,True,Assistant Director II,English Language,22,True,GES permanent
+78,T292743C8,Female,Diploma in Basic Education,True,Senior Superintendent I,English Language,13,True,GES permanent
+79,TBCC2BC5F,Male,Bachelor of Education,True,Principal Superintendent,Core Mathematics,15,False,GES permanent
+80,T7837FCFA,Male,Bachelor's degree + PGDE,True,Assistant Director I,Core Mathematics,28,True,GES permanent
+81,TB53A4580,Female,Bachelor's degree + PGDE,True,Senior Superintendent I,Integrated Science,12,False,GES permanent
+82,T1424A7CD,Male,Master's degree,True,Assistant Director II,Integrated Science,22,True,GES permanent
+83,T6DF85365,Female,Master's degree,True,Assistant Director II,Social Studies,23,False,GES permanent
+84,TF3C86FF4,Male,Bachelor's degree + PGDE,True,Assistant Director II,Social Studies,23,False,GES permanent
+85,T4DC2A833,Male,Master's degree,True,Superintendent I,Animal Husbandry,5,False,GES permanent
+86,T2EFE0C17,Male,Bachelor of Education,True,Principal Superintendent,Biology,17,True,GES permanent
+87,T6047CBD2,Male,Bachelor of Education,True,Assistant Director I,Business Management,26,False,GES permanent
+88,T1CEC7037,Male,Bachelor of Education,True,Superintendent I,Cost Accounting,3,True,GES permanent
+89,T547AB964,Female,Bachelor's degree + PGDE,True,Senior Superintendent II,Chemistry,10,False,GES permanent
+90,TBEF25B68,Female,Master's degree,True,Senior Superintendent I,Christian Religious Studies,13,True,GES permanent
+91,TC0DF64C2,Male,Bachelor of Education,True,Principal Superintendent,Economics,19,False,GES permanent
+92,TCA6A06BE,Female,Bachelor's degree + PGDE,True,Principal Superintendent,Elective Mathematics,17,False,GES permanent
+93,T7D84A24B,Male,Bachelor of Education,True,Superintendent I,Financial Accounting,5,False,GES permanent
+94,T28756BF5,Female,Bachelor's degree + PGDE,True,Senior Superintendent II,Food and Nutrition,10,False,GES permanent
+95,T513E0A50,Male,Master's degree,True,Superintendent II,General Agriculture,2,False,GES permanent
+96,TE336D55D,Female,Bachelor of Education,True,Principal Superintendent,Geography,19,True,GES permanent
+97,T50958696,Male,Bachelor of Education,True,Superintendent II,General Knowledge in Art,2,True,GES permanent
+98,T5A375E6C,Female,Master's degree,True,Principal Superintendent,Government,19,True,GES permanent
+99,T6E5385B4,Male,Bachelor of Education,True,Principal Superintendent,History,19,True,GES permanent
+100,T6A299924,Male,Master's degree,True,Principal Superintendent,Literature-in-English,18,False,GES permanent
+101,T5C241CB2,Female,Bachelor of Education,True,Superintendent I,Management in Living,4,False,GES permanent
+102,TAE6815DA,Female,Bachelor's degree + PGDE,True,Assistant Director II,Physics,23,True,GES permanent
+103,T9F61060A,Female,Bachelor's degree (non-education),False,Not ranked (untrained),English Language,1,True,National Service
+104,TB8EBCFA2,Female,Bachelor of Education,True,Assistant Director II,Core Mathematics,24,False,GES permanent
+105,TB13C212F,Male,HND,False,Not ranked (untrained),Integrated Science,0,False,Community volunteer
+106,T887542CC,Male,Master's degree,True,Superintendent I,Social Studies,3,True,GES permanent
+107,TD55F348D,Female,Bachelor of Education,True,Assistant Director II,Animal Husbandry,22,True,GES permanent
+108,TC6885A0A,Male,Bachelor of Education,True,Superintendent I,Biology,6,False,GES permanent
+109,T475A955F,Female,Bachelor's degree (non-education),False,Not ranked (untrained),Business Management,0,False,National Service
+110,T81068FAB,Male,Bachelor's degree + PGDE,True,Senior Superintendent II,Cost Accounting,10,False,GES permanent
+111,T4DBF28A5,Male,Bachelor's degree (non-education),False,Not ranked (untrained),Chemistry,0,True,National Service
+112,T7D0A55D6,Male,Bachelor's degree (non-education),False,Not ranked (untrained),Christian Religious Studies,2,False,National Service
+113,TBDE7E829,Male,Bachelor of Education,True,Senior Superintendent II,Economics,9,True,GES permanent
+114,TED5995C3,Male,Bachelor of Education,True,Senior Superintendent I,Elective Mathematics,13,False,GES permanent
+115,TAF477206,Female,Bachelor of Education,True,Superintendent I,Financial Accounting,6,False,GES permanent
+116,T98E0C158,Male,Bachelor of Education,True,Assistant Director I,General Agriculture,30,False,GES permanent
+117,TE019B5C7,Female,Master's degree,True,Assistant Director II,Geography,24,True,GES permanent
+118,T31709847,Female,Bachelor of Education,True,Superintendent I,Government,5,False,GES permanent
+119,T602BF974,Female,HND,False,Not ranked (untrained),History,1,False,Community volunteer
+120,TDDDA28C3,Female,Bachelor of Education,True,Superintendent II,Literature-in-English,1,True,GES permanent
+121,T44D9FB52,Male,HND,False,Not ranked (untrained),Physics,0,True,National Service
+122,T5A3315C4,Male,Bachelor of Education,True,Senior Superintendent II,English Language,9,True,Private
+123,T5A7C6AA8,Male,Diploma in Basic Education,True,Superintendent I,English Language,6,False,Private
+124,T8450A04B,Male,Bachelor of Education,True,Senior Superintendent II,Core Mathematics,10,False,Private
+125,TE3FA36B0,Male,Bachelor of Education,True,Assistant Director I,Core Mathematics,30,True,Private
+126,T22E053D7,Male,Bachelor of Education,True,Senior Superintendent I,Integrated Science,12,True,Private
+127,TF658A2E1,Male,Bachelor of Education,True,Senior Superintendent I,Integrated Science,11,True,Private
+128,T4A070EDB,Female,Bachelor of Education,True,Assistant Director II,Social Studies,22,False,Private
+129,T3755073A,Female,Master's degree,True,Senior Superintendent I,Social Studies,14,False,Private
+130,T5A47B3C7,Female,Master's degree,True,Principal Superintendent,Animal Husbandry,16,True,Private
+131,T17697611,Male,Bachelor of Education,True,Superintendent I,Biology,5,False,Private
+132,T1BAA3A34,Female,Bachelor of Education,True,Assistant Director II,Business Management,24,True,Private
+133,T871FC21B,Male,Bachelor of Education,True,Principal Superintendent,Cost Accounting,15,False,Private
+134,T865B8328,Male,Bachelor of Education,True,Principal Superintendent,Chemistry,16,False,Private
+135,T10432159,Male,Bachelor's degree + PGDE,True,Senior Superintendent II,Christian Religious Studies,7,False,Private
+136,T1AE4343A,Male,Bachelor's degree + PGDE,True,Assistant Director I,Economics,30,True,Private
+137,TC60A343E,Male,Bachelor of Education,True,Principal Superintendent,Elective Mathematics,17,True,Private
+138,T61E4BA9C,Male,Bachelor of Education,True,Assistant Director II,Financial Accounting,24,False,Private
+139,TB2B1138E,Male,Bachelor's degree + PGDE,True,Assistant Director I,Food and Nutrition,26,True,Private
+140,T7308AB04,Male,Bachelor of Education,True,Senior Superintendent II,General Agriculture,10,True,Private
+141,TFCDC5586,Female,Bachelor of Education,True,Assistant Director I,Geography,26,False,Private
+142,TC5587DB1,Female,Bachelor's degree + PGDE,True,Superintendent I,General Knowledge in Art,5,True,Private
+143,TC1AB8D68,Female,Diploma in Basic Education,True,Principal Superintendent,Government,17,False,Private
+144,T155AF0FD,Female,Bachelor of Education,True,Superintendent II,History,2,False,Private
+145,T66CC0A7B,Male,Bachelor of Education,True,Assistant Director II,Literature-in-English,20,True,Private
+146,T39B8C41C,Female,Bachelor of Education,True,Assistant Director I,Management in Living,32,True,Private
+147,TC4E256C8,Female,Bachelor of Education,True,Principal Superintendent,Physics,18,True,Private
+148,TFF6D2AB7,Male,Diploma in Basic Education,True,Superintendent II,English Language,1,True,GES permanent
+149,T3C4D0071,Male,Master's degree,True,Assistant Director I,Mathematics,27,True,GES permanent
+150,T2E3CD50F,Male,Diploma in Basic Education,True,Principal Superintendent,Integrated Science,19,True,GES permanent
+151,T1E9A08A1,Male,Master's degree,True,Assistant Director I,Social Studies,30,True,GES permanent
+152,TB9F56A5B,Male,Master's degree,True,Superintendent II,Religious and Moral Education,1,True,GES permanent
+153,T1B3AB5FA,Female,Diploma in Basic Education,True,Superintendent II,Computing,1,True,GES permanent
+154,TB25BDBDC,Male,Diploma in Basic Education,True,Assistant Director I,Ghanaian Language,30,True,GES permanent
+155,T4BAFED81,Female,Bachelor of Education,True,Principal Superintendent,Career Technology,16,False,GES permanent
+156,TAD2A8CEB,Female,Bachelor of Education,True,Principal Superintendent,Creative Arts and Design,17,False,GES permanent
+157,TCCEF2144,Male,Diploma in Basic Education,True,Senior Superintendent I,French,14,False,GES permanent
+158,T62CB0FEC,Male,Bachelor of Education,True,Superintendent I,English Language,6,False,GES permanent
+159,TF8120880,Male,WASSCE/SSSCE,False,Not ranked (untrained),Mathematics,0,False,Community volunteer
+160,TF53F7890,Female,Master's degree,True,Principal Superintendent,Integrated Science,19,False,GES permanent
+161,TF8BD07C8,Female,Diploma in Basic Education,True,Senior Superintendent I,Social Studies,11,False,GES permanent
+162,TFC55A88F,Male,Master's degree,True,Assistant Director I,Religious and Moral Education,33,False,GES permanent
+163,T8D77A87A,Male,Diploma in Basic Education,True,Assistant Director I,Computing,30,False,GES permanent
+164,T3A0BAEE0,Female,Bachelor of Education,True,Senior Superintendent I,Ghanaian Language,13,True,GES permanent
+165,T674BE1FD,Male,Bachelor of Education,True,Assistant Director II,Career Technology,24,False,GES permanent
+166,T4A27E930,Female,Diploma in Basic Education,True,Assistant Director I,Creative Arts and Design,26,False,GES permanent
+167,T1352A4B3,Male,HND,False,Not ranked (untrained),French,0,True,Community volunteer
+168,T8FD86630,Female,Bachelor's degree (non-education),False,Not ranked (untrained),English Language,1,True,Community volunteer
+169,T5494D804,Male,Bachelor's degree + PGDE,True,Assistant Director II,Mathematics,20,False,GES permanent
+170,T5FEE7513,Male,Diploma in Basic Education,True,Superintendent I,Integrated Science,5,False,GES permanent
+171,T3B241929,Female,HND,False,Not ranked (untrained),Social Studies,0,False,National Service
+172,TF8A4F33C,Male,Diploma in Basic Education,True,Senior Superintendent I,Religious and Moral Education,14,True,GES permanent
+173,T959E2506,Male,Bachelor's degree + PGDE,True,Assistant Director I,Computing,26,True,GES permanent
+174,T8CB6B2B7,Male,WASSCE/SSSCE,False,Not ranked (untrained),Ghanaian Language,2,False,National Service
+175,TC6178CD0,Male,HND,False,Not ranked (untrained),Career Technology,2,False,National Service
+176,T135722F5,Male,Bachelor of Education,True,Superintendent I,Creative Arts and Design,5,False,GES permanent
+177,T48BF6553,Male,Bachelor's degree (non-education),False,Not ranked (untrained),French,1,False,Community volunteer
+178,T985CC3EF,Male,Bachelor's degree + PGDE,True,Principal Superintendent,English Language,18,True,GES permanent
+179,TDF141845,Male,Diploma in Basic Education,True,Assistant Director II,Mathematics,23,False,GES permanent
+180,TFE2EBE79,Male,WASSCE/SSSCE,False,Not ranked (untrained),Integrated Science,2,False,National Service
+181,TFE509A8E,Female,Master's degree,True,Assistant Director I,Social Studies,25,False,GES permanent
+182,T722CFB66,Female,Bachelor of Education,True,Senior Superintendent I,Religious and Moral Education,14,False,GES permanent
+183,TE5AC7541,Female,Bachelor of Education,True,Principal Superintendent,Computing,15,False,GES permanent
+184,TD473C619,Female,Bachelor of Education,True,Assistant Director II,Ghanaian Language,20,True,GES permanent
+185,T3455B9AB,Male,Bachelor's degree (non-education),False,Not ranked (untrained),Career Technology,2,True,National Service
+186,TDADDF9ED,Male,Bachelor of Education,True,Principal Superintendent,Creative Arts and Design,16,True,GES permanent
+187,T6593519A,Female,WASSCE/SSSCE,False,Not ranked (untrained),French,0,False,National Service
+188,TD69F3ED6,Female,Master's degree,True,Assistant Director I,English Language,32,False,GES permanent
+189,TB85F2A56,Male,Bachelor's degree + PGDE,True,Superintendent I,English Language,6,False,GES permanent
+190,T5EC4EBE8,Male,Bachelor's degree + PGDE,True,Superintendent I,Core Mathematics,6,False,GES permanent
+191,T405B80B9,Male,Bachelor's degree + PGDE,True,Superintendent I,Core Mathematics,3,False,GES permanent
+192,T80FCB6C4,Female,Diploma in Basic Education,True,Principal Superintendent,Integrated Science,15,True,GES permanent
+193,TBAE4BF1F,Male,Bachelor of Education,True,Senior Superintendent II,Integrated Science,7,True,GES permanent
+194,TC85C8895,Female,Bachelor's degree + PGDE,True,Superintendent II,Social Studies,2,True,GES permanent
+195,T7DA40335,Male,Bachelor of Education,True,Superintendent I,Social Studies,6,False,GES permanent
+196,TCE4A97E9,Male,Bachelor of Education,True,Principal Superintendent,Animal Husbandry,15,False,GES permanent
+197,T52444AF4,Female,Bachelor of Education,True,Principal Superintendent,Biology,17,False,GES permanent
+198,T880E6948,Male,Bachelor's degree + PGDE,True,Principal Superintendent,Business Management,19,False,GES permanent
+199,TD681DD7A,Female,Bachelor of Education,True,Senior Superintendent I,Cost Accounting,12,False,GES permanent
+200,T9484E9EF,Female,Bachelor of Education,True,Principal Superintendent,Chemistry,17,True,GES permanent
+201,T3D0D868D,Male,Bachelor of Education,True,Assistant Director II,Christian Religious Studies,20,False,GES permanent
+202,TE2E7FCF9,Female,Bachelor of Education,True,Assistant Director I,Economics,32,False,GES permanent
+203,TC4C0263E,Female,Bachelor's degree + PGDE,True,Assistant Director I,Elective Mathematics,31,True,GES permanent
+204,T6EFE221A,Female,Bachelor of Education,True,Assistant Director II,Financial Accounting,22,True,GES permanent
+205,TAC5E0D24,Male,Bachelor's degree + PGDE,True,Superintendent I,Food and Nutrition,3,False,GES permanent
+206,T9410DF27,Male,Bachelor of Education,True,Assistant Director I,General Agriculture,27,False,GES permanent
+207,T8D083ACE,Female,Bachelor's degree + PGDE,True,Principal Superintendent,Geography,17,False,GES permanent
+208,T752BA5D4,Male,Bachelor of Education,True,Superintendent I,General Knowledge in Art,5,True,GES permanent
+209,T9BD980FE,Female,Bachelor of Education,True,Assistant Director I,Government,26,False,GES permanent
+210,TC32971C8,Male,Bachelor of Education,True,Assistant Director II,History,21,False,GES permanent
+211,T76315CE9,Male,Bachelor of Education,True,Senior Superintendent II,Literature-in-English,7,False,GES permanent
+212,TBA194199,Female,Bachelor of Education,True,Assistant Director II,Management in Living,20,False,GES permanent
+213,TB37FBAFF,Female,Bachelor's degree + PGDE,True,Senior Superintendent I,Physics,11,True,GES permanent
+214,T32E926D7,Male,WASSCE/SSSCE,False,Not ranked (untrained),English Language,0,True,Community volunteer
+215,TCF452F1F,Male,Bachelor of Education,True,Senior Superintendent I,Core Mathematics,11,False,GES permanent
+216,T115270B0,Male,Bachelor of Education,True,Principal Superintendent,Integrated Science,19,True,GES permanent
+217,TB56190B2,Male,Bachelor's degree (non-education),False,Not ranked (untrained),Social Studies,3,True,National Service
+218,T4EACEDA5,Male,Diploma in Basic Education,True,Principal Superintendent,Animal Husbandry,19,False,GES permanent
+219,TDC2C25F0,Male,Bachelor of Education,True,Assistant Director II,Biology,20,True,GES permanent
+220,TDB0A2084,Male,WASSCE/SSSCE,False,Not ranked (untrained),Chemistry,3,True,National Service
+221,T1CCD79A9,Male,Bachelor of Education,True,Assistant Director I,Christian Religious Studies,28,True,GES permanent
+222,T809DAB84,Male,Bachelor of Education,True,Assistant Director I,Economics,32,True,GES permanent
+223,T18373E8C,Male,WASSCE/SSSCE,False,Not ranked (untrained),General Agriculture,2,False,Community volunteer
+224,TF586F8D9,Male,Bachelor's degree (non-education),False,Not ranked (untrained),Geography,1,False,National Service
+225,T9E877933,Male,WASSCE/SSSCE,False,Not ranked (untrained),Government,3,False,National Service
+226,TF5D80827,Female,Bachelor of Education,True,Assistant Director I,History,28,True,GES permanent
+227,TED75E30D,Male,Bachelor of Education,True,Principal Superintendent,Literature-in-English,19,True,GES permanent
+228,T54FDE1A4,Male,Diploma in Basic Education,True,Assistant Director I,English Language,25,False,GES permanent
+229,TEAECB988,Female,Diploma in Basic Education,True,Superintendent I,Mathematics,3,True,GES permanent
+230,TAE9DF46C,Male,Bachelor's degree + PGDE,True,Principal Superintendent,Integrated Science,17,True,GES permanent
+231,TDCABA10A,Female,Diploma in Basic Education,True,Assistant Director II,Social Studies,22,False,GES permanent
+232,TCFD891C4,Female,Bachelor of Education,True,Assistant Director I,Religious and Moral Education,29,True,GES permanent
+233,T40E3928B,Female,Bachelor's degree + PGDE,True,Senior Superintendent I,Computing,13,False,GES permanent
+234,T947C7CDD,Female,Bachelor of Education,True,Principal Superintendent,Ghanaian Language,16,False,GES permanent
+235,T486506F1,Male,Diploma in Basic Education,True,Assistant Director II,Career Technology,22,True,GES permanent
+236,T8049A14F,Male,Diploma in Basic Education,True,Assistant Director II,Creative Arts and Design,22,True,GES permanent
+237,T93078524,Male,Diploma in Basic Education,True,Senior Superintendent II,French,10,True,GES permanent
+238,T6EDE06AE,Female,Bachelor of Education,True,Superintendent I,English Language,3,True,GES permanent
+239,T33DA03FA,Female,Bachelor of Education,True,Principal Superintendent,Mathematics,19,True,GES permanent
+240,T77827618,Male,WASSCE/SSSCE,False,Not ranked (untrained),Integrated Science,1,True,Community volunteer
+241,TF34903F9,Male,Bachelor of Education,True,Assistant Director I,Social Studies,31,True,GES permanent
+242,TAD539486,Male,Bachelor of Education,True,Superintendent I,Religious and Moral Education,5,False,GES permanent
+243,TFBACF6E8,Male,Diploma in Basic Education,True,Principal Superintendent,Computing,15,True,GES permanent
+244,TE80ABD69,Male,Bachelor's degree (non-education),False,Not ranked (untrained),Ghanaian Language,1,True,National Service
+245,T3E313889,Female,Bachelor of Education,True,Principal Superintendent,Career Technology,18,False,GES permanent
+246,T347F8929,Male,Diploma in Basic Education,True,Assistant Director I,Creative Arts and Design,28,False,GES permanent
+247,T722376F3,Female,Diploma in Basic Education,True,Senior Superintendent I,French,13,False,GES permanent
+248,T1725AC3D,Male,Diploma in Basic Education,True,Assistant Director II,English Language,22,True,GES permanent
+249,T11D2833A,Male,Diploma in Basic Education,True,Assistant Director I,Mathematics,25,False,GES permanent
+250,TE4CD619A,Female,Diploma in Basic Education,True,Assistant Director I,Integrated Science,27,False,GES permanent
+251,TA5D1B835,Female,Bachelor's degree (non-education),False,Not ranked (untrained),Social Studies,1,True,Community volunteer
+252,T51D03773,Male,Master's degree,True,Principal Superintendent,Religious and Moral Education,19,False,GES permanent
+253,T39157CD4,Male,Bachelor of Education,True,Assistant Director II,Computing,23,False,GES permanent
+254,T9AB7DB9F,Male,HND,False,Not ranked (untrained),Ghanaian Language,0,False,National Service
+255,T51BEBBFA,Male,HND,False,Not ranked (untrained),Career Technology,0,False,National Service
+256,T9B34368C,Male,Diploma in Basic Education,True,Senior Superintendent I,Creative Arts and Design,11,True,GES permanent
+257,TBE1B876D,Male,Bachelor's degree (non-education),False,Not ranked (untrained),French,0,True,National Service
+258,T9E19F344,Male,Diploma in Basic Education,True,Assistant Director II,English Language,21,False,GES permanent
+259,T1F0374AF,Male,Bachelor of Education,True,Assistant Director I,Mathematics,32,False,GES permanent
+260,T9591EEA9,Male,Bachelor of Education,True,Assistant Director I,Integrated Science,25,True,GES permanent
+261,TEC2BF6B0,Male,Diploma in Basic Education,True,Principal Superintendent,Social Studies,15,False,GES permanent
+262,T273179F3,Male,Diploma in Basic Education,True,Senior Superintendent II,Religious and Moral Education,8,False,GES permanent
+263,T981A9823,Female,Bachelor of Education,True,Assistant Director I,Computing,32,False,GES permanent
+264,TA8710B91,Male,Diploma in Basic Education,True,Senior Superintendent I,Ghanaian Language,13,False,GES permanent
+265,T5E705582,Female,Diploma in Basic Education,True,Superintendent I,Career Technology,5,True,GES permanent
+266,TD5703A5F,Male,Diploma in Basic Education,True,Assistant Director I,Creative Arts and Design,28,False,GES permanent
+267,T533EBF52,Male,Diploma in Basic Education,True,Assistant Director II,French,21,False,GES permanent
+268,T17C1EA50,Male,Bachelor of Education,True,Assistant Director II,English Language,23,True,GES permanent
+269,T98BF9EAF,Female,Bachelor's degree + PGDE,True,Superintendent I,English Language,3,False,GES permanent
+270,TCAA6F095,Male,Bachelor of Education,True,Assistant Director I,Core Mathematics,29,False,GES permanent
+271,T3BA1E757,Female,Bachelor of Education,True,Assistant Director I,Core Mathematics,30,False,GES permanent
+272,TCA091617,Male,Bachelor of Education,True,Principal Superintendent,Integrated Science,17,False,GES permanent
+273,T57832B85,Male,Bachelor of Education,True,Senior Superintendent I,Integrated Science,11,True,GES permanent
+274,T741A43AA,Male,Bachelor's degree + PGDE,True,Superintendent I,Social Studies,3,True,GES permanent
+275,T7906E581,Female,Bachelor of Education,True,Senior Superintendent I,Social Studies,13,True,GES permanent
+276,T219B4C51,Female,Bachelor's degree + PGDE,True,Assistant Director I,Animal Husbandry,30,True,GES permanent
+277,T83D87E1A,Female,Bachelor of Education,True,Assistant Director I,Biology,31,True,GES permanent
+278,T450FA5B2,Male,Bachelor of Education,True,Assistant Director I,Business Management,31,False,GES permanent
+279,TDBCA7F7E,Male,Bachelor of Education,True,Senior Superintendent I,Cost Accounting,12,False,GES permanent
+280,T81CB08C1,Female,Master's degree,True,Assistant Director I,Chemistry,33,True,GES permanent
+281,TFF5679D3,Male,Bachelor's degree + PGDE,True,Principal Superintendent,Christian Religious Studies,18,False,GES permanent
+282,T4534680A,Female,Master's degree,True,Assistant Director I,Economics,27,False,GES permanent
+283,T1BE13977,Female,Bachelor's degree + PGDE,True,Assistant Director I,Elective Mathematics,30,False,GES permanent
+284,TDBD5633A,Male,WASSCE/SSSCE,False,Not ranked (untrained),Financial Accounting,2,False,National Service
+285,TCCBDD705,Female,Bachelor of Education,True,Superintendent II,Food and Nutrition,1,False,GES permanent
+286,T4D492C3C,Female,WASSCE/SSSCE,False,Not ranked (untrained),General Agriculture,1,False,National Service
+287,T2F324192,Male,Master's degree,True,Assistant Director II,Geography,21,True,GES permanent
+288,TBD27A63A,Male,WASSCE/SSSCE,False,Not ranked (untrained),General Knowledge in Art,2,False,National Service
+289,TD44DB37E,Female,Bachelor of Education,True,Superintendent II,Government,1,True,GES permanent
+290,T1C5E9C40,Female,Bachelor of Education,True,Principal Superintendent,History,19,False,GES permanent
+291,TC18AEC9A,Male,Bachelor of Education,True,Senior Superintendent I,Literature-in-English,14,False,GES permanent
+292,T3C9D3F32,Male,Bachelor of Education,True,Senior Superintendent II,Management in Living,8,True,GES permanent
+293,T7985575D,Female,Bachelor of Education,True,Senior Superintendent I,Physics,13,True,GES permanent
+294,T7C4C48FE,Female,Bachelor of Education,True,Assistant Director I,English Language,28,False,GES permanent
+295,T81126409,Male,Bachelor of Education,True,Principal Superintendent,English Language,16,True,GES permanent
+296,T51C2BE95,Female,Bachelor's degree + PGDE,True,Superintendent I,Core Mathematics,3,False,GES permanent
+297,TC94ADCAC,Male,Bachelor of Education,True,Assistant Director II,Core Mathematics,21,True,GES permanent
+298,T2DCCB2DC,Male,Bachelor of Education,True,Assistant Director I,Integrated Science,33,False,GES permanent
+299,T59DCDE41,Female,Bachelor's degree (non-education),False,Not ranked (untrained),Integrated Science,0,True,Community volunteer
+300,TA2185EF6,Male,Bachelor of Education,True,Assistant Director I,Social Studies,27,True,GES permanent
+301,TAF7C2C2C,Female,Bachelor's degree + PGDE,True,Assistant Director I,Social Studies,28,True,GES permanent
+302,TC95A8637,Male,Bachelor of Education,True,Assistant Director I,Animal Husbandry,29,False,GES permanent
+303,T76900841,Female,Bachelor of Education,True,Assistant Director I,Biology,31,True,GES permanent
+304,T17422FCC,Male,Bachelor of Education,True,Assistant Director II,Business Management,22,False,GES permanent
+305,T4686A050,Female,Bachelor of Education,True,Assistant Director I,Cost Accounting,30,True,GES permanent
+306,T456C10B4,Female,WASSCE/SSSCE,False,Not ranked (untrained),Chemistry,1,False,National Service
+307,TD7333998,Female,Master's degree,True,Senior Superintendent II,Christian Religious Studies,7,False,GES permanent
+308,T27ADA0CD,Male,Bachelor of Education,True,Superintendent I,Economics,5,False,GES permanent
+309,TFBAD44BA,Female,Bachelor of Education,True,Senior Superintendent I,Elective Mathematics,14,False,GES permanent
+310,T4E904D41,Female,Bachelor's degree + PGDE,True,Senior Superintendent II,Financial Accounting,9,False,GES permanent
+311,TB559EA7E,Male,Bachelor of Education,True,Assistant Director I,Food and Nutrition,27,False,GES permanent
+312,T72E404B7,Female,Bachelor's degree + PGDE,True,Superintendent I,General Agriculture,3,False,GES permanent
+313,TCDC413C3,Male,Bachelor's degree + PGDE,True,Senior Superintendent I,Geography,13,True,GES permanent
+314,T38DE355E,Male,Bachelor of Education,True,Superintendent I,General Knowledge in Art,6,False,GES permanent
+315,TA10A9F66,Male,Bachelor of Education,True,Principal Superintendent,Government,18,False,GES permanent
+316,T34879A66,Female,Master's degree,True,Senior Superintendent I,History,12,True,GES permanent
+317,T5E00308D,Male,Master's degree,True,Senior Superintendent I,Literature-in-English,13,False,GES permanent
+318,T6BD80176,Female,Bachelor of Education,True,Assistant Director I,Management in Living,26,True,GES permanent
+319,T4EF39535,Male,Bachelor of Education,True,Principal Superintendent,Physics,15,False,GES permanent
+320,T66D089CD,Male,Diploma in Basic Education,True,Senior Superintendent I,English Language,14,False,GES permanent
+321,TDE5ADD96,Female,Master's degree,True,Assistant Director I,Mathematics,33,True,GES permanent
+322,T810FCFCF,Female,Diploma in Basic Education,True,Assistant Director II,Integrated Science,21,False,GES permanent
+323,TD8E2FE9B,Male,Diploma in Basic Education,True,Assistant Director I,Social Studies,28,True,GES permanent
+324,T203F9F99,Male,Bachelor of Education,True,Superintendent I,Religious and Moral Education,6,True,GES permanent
+325,T7555AD83,Female,Bachelor of Education,True,Assistant Director II,Computing,23,True,GES permanent
+326,T6D69195D,Female,Diploma in Basic Education,True,Superintendent II,Ghanaian Language,1,False,GES permanent
+327,T5F07F8E7,Male,Bachelor of Education,True,Senior Superintendent I,Career Technology,11,False,GES permanent
+328,T2945332D,Female,Diploma in Basic Education,True,Senior Superintendent I,Creative Arts and Design,14,False,GES permanent
+329,TB15995A0,Male,Bachelor of Education,True,Superintendent I,French,3,True,GES permanent
+330,TED183A71,Male,Diploma in Basic Education,True,Principal Superintendent,English Language,18,True,GES permanent
+331,T92A6A2E6,Female,Bachelor's degree (non-education),False,Not ranked (untrained),Mathematics,0,True,Community volunteer
+332,T6CAA6525,Female,WASSCE/SSSCE,False,Not ranked (untrained),Integrated Science,0,True,National Service
+333,T5E7C040F,Male,Bachelor of Education,True,Principal Superintendent,Social Studies,15,False,GES permanent
+334,T7C0EA5E0,Male,HND,False,Not ranked (untrained),Religious and Moral Education,1,False,National Service
+335,T74E240AC,Male,HND,False,Not ranked (untrained),Computing,3,False,National Service
+336,T8088099C,Female,Diploma in Basic Education,True,Senior Superintendent II,Ghanaian Language,8,False,GES permanent
+337,TD9B8C685,Male,Bachelor of Education,True,Assistant Director I,Career Technology,29,False,GES permanent
+338,T30538FF0,Female,Bachelor of Education,True,Assistant Director II,Creative Arts and Design,23,True,GES permanent
+339,T4FC5DC14,Male,WASSCE/SSSCE,False,Not ranked (untrained),French,0,True,National Service
+340,T3F913A10,Male,WASSCE/SSSCE,False,Not ranked (untrained),English Language,3,True,Community volunteer
+341,T1B5450C7,Male,Bachelor of Education,True,Senior Superintendent I,Mathematics,11,False,GES permanent
+342,TE566DBDA,Male,Diploma in Basic Education,True,Superintendent II,Integrated Science,2,True,GES permanent
+343,T38022A17,Male,Master's degree,True,Assistant Director II,Social Studies,20,False,GES permanent
+344,T55D74933,Female,Bachelor's degree + PGDE,True,Principal Superintendent,Religious and Moral Education,19,True,GES permanent
+345,TB3036AE7,Male,Diploma in Basic Education,True,Assistant Director II,Computing,21,True,GES permanent
+346,TA03A37DF,Male,WASSCE/SSSCE,False,Not ranked (untrained),Ghanaian Language,1,False,Community volunteer
+347,T9B9C8074,Male,HND,False,Not ranked (untrained),Career Technology,3,False,National Service
+348,T7EB18983,Male,Diploma in Basic Education,True,Assistant Director I,Creative Arts and Design,27,True,GES permanent
+349,T745630C1,Female,HND,False,Not ranked (untrained),French,1,False,National Service
+350,TFB1391C1,Female,Bachelor's degree (non-education),False,Not ranked (untrained),English Language,2,True,National Service
+351,TD485038F,Male,Diploma in Basic Education,True,Senior Superintendent II,Mathematics,9,True,GES permanent
+352,T1BB81638,Male,Diploma in Basic Education,True,Principal Superintendent,Integrated Science,15,True,GES permanent
+353,TDCE7384E,Female,Bachelor of Education,True,Principal Superintendent,Social Studies,19,True,GES permanent
+354,TD2797D78,Female,Diploma in Basic Education,True,Assistant Director II,Religious and Moral Education,22,False,GES permanent
+355,TD611FC66,Male,Bachelor of Education,True,Superintendent I,Computing,3,True,GES permanent
+356,TA5A3986E,Female,Diploma in Basic Education,True,Assistant Director I,Ghanaian Language,31,False,GES permanent
+357,T2C28F650,Male,Master's degree,True,Senior Superintendent II,Career Technology,10,False,GES permanent
+358,T632028CE,Female,Diploma in Basic Education,True,Assistant Director II,Creative Arts and Design,20,True,GES permanent
+359,T39EBBA6D,Male,Bachelor of Education,True,Principal Superintendent,French,17,True,GES permanent
+360,T619C375F,Male,Bachelor of Education,True,Assistant Director I,English Language,26,False,GES permanent
+361,TEE0B2370,Female,Bachelor's degree + PGDE,True,Principal Superintendent,English Language,17,True,GES permanent
+362,T397E2FC8,Male,Master's degree,True,Superintendent II,Core Mathematics,1,True,GES permanent
+363,T1A404D0C,Male,Bachelor of Education,True,Assistant Director I,Core Mathematics,30,False,GES permanent
+364,TF6AB1243,Female,Bachelor's degree + PGDE,True,Assistant Director I,Integrated Science,25,True,GES permanent
+365,T2643DD51,Female,Bachelor's degree + PGDE,True,Senior Superintendent I,Integrated Science,11,False,GES permanent
+366,T9E4B2C7D,Female,Master's degree,True,Principal Superintendent,Social Studies,19,False,GES permanent
+367,TC0ABD949,Male,Bachelor of Education,True,Superintendent I,Social Studies,3,False,GES permanent
+368,TDEA75D0F,Male,Bachelor of Education,True,Superintendent I,Animal Husbandry,5,False,GES permanent
+369,T3E20A051,Male,Bachelor of Education,True,Superintendent I,Biology,6,False,GES permanent
+370,T51B36E92,Female,Bachelor of Education,True,Senior Superintendent I,Business Management,12,True,GES permanent
+371,T28611EFF,Male,Bachelor of Education,True,Assistant Director I,Cost Accounting,33,False,GES permanent
+372,TA7DDBB5E,Male,Bachelor of Education,True,Senior Superintendent II,Chemistry,7,True,GES permanent
+373,T2625A220,Male,Bachelor's degree + PGDE,True,Senior Superintendent I,Christian Religious Studies,14,True,GES permanent
+374,T83291093,Female,Bachelor of Education,True,Principal Superintendent,Economics,18,False,GES permanent
+375,TEE91BDFF,Female,Master's degree,True,Assistant Director II,Elective Mathematics,23,False,GES permanent
+376,T85ED1A98,Male,Bachelor of Education,True,Assistant Director II,Financial Accounting,21,True,GES permanent
+377,TECA01FEA,Female,Bachelor of Education,True,Assistant Director I,Food and Nutrition,33,True,GES permanent
+378,T85039026,Female,Master's degree,True,Senior Superintendent I,General Agriculture,14,False,GES permanent
+379,T5FC89024,Female,Bachelor's degree + PGDE,True,Senior Superintendent I,Geography,13,False,GES permanent
+380,TD15CCDAD,Female,Master's degree,True,Principal Superintendent,General Knowledge in Art,15,True,GES permanent
+381,T73B835DE,Female,Master's degree,True,Assistant Director II,Government,21,False,GES permanent
+382,TDD47A3C8,Male,Bachelor of Education,True,Superintendent I,History,4,True,GES permanent
+383,TD90D3E3C,Male,Bachelor's degree + PGDE,True,Assistant Director I,Literature-in-English,29,False,GES permanent
+384,T1021486C,Female,Master's degree,True,Senior Superintendent II,Management in Living,9,True,GES permanent
+385,T99EDDD94,Male,Master's degree,True,Assistant Director II,Physics,22,False,GES permanent
+386,T89366EAA,Male,Master's degree,True,Principal Superintendent,English Language,15,False,GES permanent
+387,T7FB28A72,Female,Bachelor's degree (non-education),False,Not ranked (untrained),English Language,1,False,Community volunteer
+388,TCA71D74A,Female,Bachelor of Education,True,Assistant Director II,Core Mathematics,24,False,GES permanent
+389,TBCDE3BE2,Male,Bachelor of Education,True,Superintendent I,Core Mathematics,4,True,GES permanent
+390,T9A62257A,Female,Bachelor of Education,True,Principal Superintendent,Integrated Science,16,False,GES permanent
+391,T348128C7,Female,Master's degree,True,Senior Superintendent I,Integrated Science,13,False,GES permanent
+392,TD56E4D69,Female,WASSCE/SSSCE,False,Not ranked (untrained),Social Studies,3,False,National Service
+393,TFF90B5DF,Male,Master's degree,True,Assistant Director I,Social Studies,25,True,GES permanent
+394,TC1230740,Female,Master's degree,True,Superintendent I,Animal Husbandry,6,True,GES permanent
+395,TB28E4682,Male,Bachelor's degree + PGDE,True,Principal Superintendent,Biology,18,True,GES permanent
+396,T983F13B0,Female,Bachelor of Education,True,Assistant Director I,Business Management,30,False,GES permanent
+397,T537AC3CB,Male,Bachelor of Education,True,Principal Superintendent,Cost Accounting,15,True,GES permanent
+398,TD207A23C,Male,Bachelor of Education,True,Assistant Director I,Chemistry,26,False,GES permanent
+399,T5C48C238,Female,WASSCE/SSSCE,False,Not ranked (untrained),Christian Religious Studies,0,True,Community volunteer
+400,TE38C33AE,Male,Bachelor's degree + PGDE,True,Assistant Director I,Economics,33,False,GES permanent
+401,T2A7F64F3,Female,Bachelor of Education,True,Principal Superintendent,Elective Mathematics,18,False,GES permanent
+402,T20D587F0,Female,Bachelor of Education,True,Superintendent I,Financial Accounting,5,False,GES permanent
+403,T10FD6E0D,Female,Bachelor's degree + PGDE,True,Superintendent II,Food and Nutrition,1,False,GES permanent
+404,TDB26DD08,Male,Diploma in Basic Education,True,Senior Superintendent II,General Agriculture,10,False,GES permanent
+405,T449151AA,Male,Bachelor of Education,True,Principal Superintendent,Geography,17,True,GES permanent
+406,T6B6FFF46,Male,WASSCE/SSSCE,False,Not ranked (untrained),General Knowledge in Art,0,True,National Service
+407,TE98B351D,Male,Bachelor's degree + PGDE,True,Superintendent II,Government,2,True,GES permanent
+408,T8764536F,Female,Bachelor of Education,True,Assistant Director I,History,30,False,GES permanent
+409,T6FAE9410,Male,Bachelor's degree + PGDE,True,Superintendent II,Literature-in-English,2,True,GES permanent
+410,T132FE5F9,Male,Bachelor of Education,True,Assistant Director I,Management in Living,30,False,GES permanent
+411,T3FE85DCB,Male,Bachelor's degree + PGDE,True,Assistant Director II,Physics,20,False,GES permanent
+412,TFE91E05D,Female,Bachelor's degree + PGDE,True,Assistant Director II,English Language,22,False,GES permanent
+413,T52135C0B,Male,Bachelor of Education,True,Assistant Director I,Mathematics,31,True,GES permanent
+414,TF178C7A8,Male,Bachelor of Education,True,Senior Superintendent II,Integrated Science,9,False,GES permanent
+415,T7C819B9A,Male,Bachelor of Education,True,Assistant Director I,Social Studies,30,True,GES permanent
+416,TBD0D0903,Male,Bachelor's degree (non-education),False,Not ranked (untrained),Religious and Moral Education,1,False,National Service
+417,T6990E160,Female,HND,False,Not ranked (untrained),Computing,0,True,National Service
+418,TE1C8217C,Female,WASSCE/SSSCE,False,Not ranked (untrained),Ghanaian Language,1,True,Community volunteer
+419,T7951DA8F,Male,Bachelor of Education,True,Assistant Director I,Career Technology,26,False,GES permanent
+420,TAD1C8B7C,Male,Diploma in Basic Education,True,Senior Superintendent I,Creative Arts and Design,12,False,GES permanent
+421,TEDB1C8E0,Male,Diploma in Basic Education,True,Senior Superintendent I,French,11,False,GES permanent
+422,T87819E6A,Male,Diploma in Basic Education,True,Assistant Director I,English Language,31,True,GES permanent
+423,T44AD67E7,Female,Bachelor of Education,True,Principal Superintendent,Mathematics,19,False,GES permanent
+424,T49F4ED33,Male,Bachelor of Education,True,Assistant Director I,Integrated Science,26,False,GES permanent
+425,TDDDE6668,Male,WASSCE/SSSCE,False,Not ranked (untrained),Social Studies,0,True,Community volunteer
+426,TF2DF890D,Male,Diploma in Basic Education,True,Assistant Director I,Religious and Moral Education,33,True,GES permanent
+427,TA151BC1A,Male,HND,False,Not ranked (untrained),Computing,0,True,National Service
+428,TF18390F9,Male,Bachelor's degree (non-education),False,Not ranked (untrained),Ghanaian Language,3,True,National Service
+429,TFACE6981,Male,Bachelor of Education,True,Principal Superintendent,Career Technology,16,True,GES permanent
+430,T491F2107,Male,Diploma in Basic Education,True,Assistant Director I,Creative Arts and Design,28,False,GES permanent
+431,T4AD1DE77,Male,Diploma in Basic Education,True,Assistant Director I,French,30,False,GES permanent
+432,TCAF2E174,Female,Diploma in Basic Education,True,Assistant Director I,English Language,31,True,GES permanent
+433,T2F141D28,Male,WASSCE/SSSCE,False,Not ranked (untrained),Mathematics,3,True,Community volunteer
+434,T8B76DDF1,Female,Bachelor's degree (non-education),False,Not ranked (untrained),Integrated Science,1,False,Community volunteer
+435,T2A76035A,Male,Bachelor of Education,True,Assistant Director I,Social Studies,25,False,GES permanent
+436,T4888FFDA,Male,WASSCE/SSSCE,False,Not ranked (untrained),Religious and Moral Education,0,True,National Service
+437,T8E1A7260,Female,Bachelor's degree (non-education),False,Not ranked (untrained),Computing,3,True,Community volunteer
+438,T53FC2E2A,Female,Bachelor's degree (non-education),False,Not ranked (untrained),Ghanaian Language,2,True,Community volunteer
+439,TB054D283,Male,Diploma in Basic Education,True,Assistant Director I,Career Technology,28,False,GES permanent
+440,T1355C816,Male,Bachelor of Education,True,Assistant Director I,Creative Arts and Design,32,False,GES permanent
+441,T525FFAAB,Male,Diploma in Basic Education,True,Superintendent II,French,2,False,GES permanent
+442,T79280BAA,Female,Diploma in Basic Education,True,Superintendent I,English Language,4,False,GES permanent
+443,T6D04A314,Male,WASSCE/SSSCE,False,Not ranked (untrained),Mathematics,0,True,National Service
+444,T3DB6BFD6,Male,Diploma in Basic Education,True,Assistant Director I,Integrated Science,25,True,GES permanent
+445,TA2A64769,Female,Diploma in Basic Education,True,Superintendent I,Social Studies,3,True,GES permanent
+446,TB5D6A519,Female,Bachelor of Education,True,Superintendent I,Religious and Moral Education,4,False,GES permanent
+447,T7CD50D3C,Male,Bachelor's degree + PGDE,True,Principal Superintendent,Computing,15,False,GES permanent
+448,T95F440E1,Male,WASSCE/SSSCE,False,Not ranked (untrained),Ghanaian Language,0,False,National Service
+449,T12F44E2B,Male,Bachelor of Education,True,Superintendent I,Career Technology,5,True,GES permanent
+450,T6E076FEB,Male,Bachelor of Education,True,Assistant Director II,Creative Arts and Design,21,False,GES permanent
+451,T78480F6B,Male,Bachelor of Education,True,Senior Superintendent I,French,12,True,GES permanent
+452,T4DEA22EA,Female,Bachelor's degree + PGDE,True,Assistant Director I,English Language,26,False,GES permanent
+453,T2997ADB3,Female,Bachelor's degree (non-education),False,Not ranked (untrained),English Language,3,False,National Service
+454,T7470507E,Male,HND,False,Not ranked (untrained),Core Mathematics,3,True,National Service
+455,T3B557855,Male,Bachelor of Education,True,Assistant Director I,Core Mathematics,32,True,GES permanent
+456,T155C0583,Male,Master's degree,True,Superintendent I,Integrated Science,5,False,GES permanent
+457,T37A1FDA7,Male,Bachelor of Education,True,Superintendent I,Integrated Science,3,True,GES permanent
+458,TE34FDF2D,Female,Bachelor's degree + PGDE,True,Senior Superintendent I,Social Studies,14,True,GES permanent
+459,T85A50122,Male,Bachelor of Education,True,Assistant Director I,Social Studies,30,True,GES permanent
+460,T166C3B38,Male,Bachelor of Education,True,Senior Superintendent II,Animal Husbandry,7,False,GES permanent
+461,T963289B2,Female,Master's degree,True,Assistant Director II,Biology,20,False,GES permanent
+462,T6CF61DD3,Female,Bachelor of Education,True,Assistant Director I,Business Management,32,True,GES permanent
+463,T8143C495,Male,Master's degree,True,Senior Superintendent I,Cost Accounting,13,True,GES permanent
+464,TA21C9F96,Male,Bachelor of Education,True,Assistant Director II,Chemistry,22,False,GES permanent
+465,TAC7A8831,Male,Master's degree,True,Senior Superintendent II,Christian Religious Studies,9,False,GES permanent
+466,T4FF73A25,Male,Bachelor's degree + PGDE,True,Senior Superintendent II,Economics,10,True,GES permanent
+467,TE54EEE61,Female,Bachelor of Education,True,Senior Superintendent II,Elective Mathematics,8,False,GES permanent
+468,T8B55205E,Male,Bachelor of Education,True,Senior Superintendent I,Financial Accounting,13,False,GES permanent
+469,T6D28FBA8,Male,Bachelor of Education,True,Superintendent II,Food and Nutrition,2,False,GES permanent
+470,TA9883FD6,Female,Bachelor of Education,True,Superintendent II,General Agriculture,1,True,GES permanent
+471,T643B7EEA,Female,Bachelor of Education,True,Senior Superintendent I,Geography,14,False,GES permanent
+472,T23BDDE9C,Female,Master's degree,True,Senior Superintendent I,General Knowledge in Art,14,True,GES permanent
+473,T80EF1E6F,Male,Bachelor of Education,True,Assistant Director II,Government,23,False,GES permanent
+474,T513CFE4B,Male,Bachelor's degree (non-education),False,Not ranked (untrained),History,3,False,National Service
+475,T746A343A,Male,Bachelor of Education,True,Superintendent I,Literature-in-English,4,True,GES permanent
+476,TF3224F82,Male,WASSCE/SSSCE,False,Not ranked (untrained),Management in Living,1,True,Community volunteer
+477,TB89D92A2,Male,Diploma in Basic Education,True,Superintendent II,Physics,2,True,GES permanent
+478,T9771332B,Male,Bachelor of Education,True,Assistant Director I,English Language,26,False,GES permanent
+479,T2EEEAF28,Female,Bachelor's degree (non-education),False,Not ranked (untrained),Core Mathematics,3,False,Community volunteer
+480,T97A9A498,Male,WASSCE/SSSCE,False,Not ranked (untrained),Integrated Science,3,False,National Service
+481,T47269D30,Male,WASSCE/SSSCE,False,Not ranked (untrained),Social Studies,0,False,National Service
+482,TF38733A3,Male,Bachelor of Education,True,Superintendent I,Animal Husbandry,3,False,GES permanent
+483,TA31CDD21,Female,Bachelor's degree + PGDE,True,Senior Superintendent I,Biology,13,False,GES permanent
+484,T83994F45,Female,Master's degree,True,Senior Superintendent I,Business Management,14,False,GES permanent
+485,T53BFDDB6,Male,Bachelor of Education,True,Senior Superintendent I,Cost Accounting,13,True,GES permanent
+486,T6FD55251,Male,Master's degree,True,Principal Superintendent,Chemistry,19,False,GES permanent
+487,T9F76BEC3,Male,Master's degree,True,Senior Superintendent II,Christian Religious Studies,9,True,GES permanent
+488,T70B5DF46,Female,Bachelor of Education,True,Assistant Director II,Economics,24,False,GES permanent
+489,T124A46A7,Female,Bachelor of Education,True,Assistant Director I,Elective Mathematics,33,True,GES permanent
+490,T10CDE4C0,Male,Bachelor of Education,True,Principal Superintendent,Financial Accounting,15,False,GES permanent
+491,T55C92EBA,Male,Bachelor of Education,True,Assistant Director II,Food and Nutrition,23,False,GES permanent
+492,T5AE84CCB,Male,Bachelor of Education,True,Principal Superintendent,General Agriculture,15,True,GES permanent
+493,T3037251E,Male,Bachelor of Education,True,Assistant Director II,Geography,20,True,GES permanent
+494,TDB3CDD8B,Female,WASSCE/SSSCE,False,Not ranked (untrained),General Knowledge in Art,1,True,National Service
+495,TDE115FE6,Male,HND,False,Not ranked (untrained),Government,3,True,National Service
+496,TD21039A5,Male,Bachelor of Education,True,Superintendent I,History,3,True,GES permanent
+497,T921FECE1,Female,Bachelor of Education,True,Superintendent I,Literature-in-English,5,True,GES permanent
+498,TCA561DD4,Male,Bachelor of Education,True,Senior Superintendent II,Management in Living,7,False,GES permanent
+499,T67A792C6,Female,Bachelor's degree + PGDE,True,Superintendent I,Physics,6,True,GES permanent
+500,T223CCC15,Female,Diploma in Basic Education,True,Principal Superintendent,English Language,15,True,Private
+501,TC94E9B06,Male,Diploma in Basic Education,True,Assistant Director I,Mathematics,32,False,Private
+502,T3B69D6F2,Female,Bachelor of Education,True,Assistant Director II,Integrated Science,20,True,Private
+503,TB474950A,Male,Bachelor's degree + PGDE,True,Assistant Director I,Social Studies,29,False,Private
+504,T28F5828C,Female,Bachelor's degree + PGDE,True,Principal Superintendent,Religious and Moral Education,15,False,Private
+505,T211D6B2F,Male,WASSCE/SSSCE,False,Not ranked (untrained),Computing,1,False,Private
+506,TC4D97090,Female,Diploma in Basic Education,True,Assistant Director I,Ghanaian Language,33,False,Private
+507,T3E8A68AC,Male,Bachelor's degree + PGDE,True,Assistant Director II,Career Technology,20,True,Private
+508,T22B4E643,Female,Diploma in Basic Education,True,Principal Superintendent,Creative Arts and Design,18,False,Private
+509,TEBB05EA9,Female,HND,False,Not ranked (untrained),French,2,True,Private
+510,T53CAEEC1,Female,Bachelor of Education,True,Assistant Director I,English Language,28,True,GES permanent
+511,T6012B4C0,Female,Diploma in Basic Education,True,Senior Superintendent II,Mathematics,10,True,GES permanent
+512,T32E71D94,Male,Diploma in Basic Education,True,Senior Superintendent II,Integrated Science,8,False,GES permanent
+513,T93DDE1EB,Female,Diploma in Basic Education,True,Assistant Director II,Social Studies,24,False,GES permanent
+514,TBF599AEB,Male,Diploma in Basic Education,True,Superintendent I,Religious and Moral Education,4,True,GES permanent
+515,T9FD673FC,Male,Diploma in Basic Education,True,Assistant Director I,Computing,31,False,GES permanent
+516,T8080D8C7,Male,Master's degree,True,Senior Superintendent I,Ghanaian Language,12,False,GES permanent
+517,T99F87A4A,Male,Diploma in Basic Education,True,Assistant Director II,Career Technology,23,False,GES permanent
+518,TE3FD17E7,Male,Diploma in Basic Education,True,Assistant Director II,Creative Arts and Design,22,False,GES permanent
+519,T4D0F49C7,Female,WASSCE/SSSCE,False,Not ranked (untrained),French,3,True,Community volunteer
+520,T75609473,Male,Diploma in Basic Education,True,Senior Superintendent II,English Language,9,True,GES permanent
+521,T874FE316,Male,WASSCE/SSSCE,False,Not ranked (untrained),Mathematics,3,False,National Service
+522,T2573C6A8,Male,HND,False,Not ranked (untrained),Integrated Science,3,True,National Service
+523,TA4CE5BCF,Male,Bachelor's degree + PGDE,True,Assistant Director II,Social Studies,24,False,GES permanent
+524,T5BECB27E,Male,Bachelor's degree (non-education),False,Not ranked (untrained),Religious and Moral Education,1,True,National Service
+525,TA819C76C,Female,Bachelor's degree (non-education),False,Not ranked (untrained),Computing,0,True,National Service
+526,T4C237C3D,Male,Bachelor of Education,True,Assistant Director II,Ghanaian Language,23,True,GES permanent
+527,TE0BDEF7D,Male,WASSCE/SSSCE,False,Not ranked (untrained),Career Technology,2,False,Community volunteer
+528,TFD10FB20,Male,Bachelor of Education,True,Assistant Director I,Creative Arts and Design,31,False,GES permanent
+529,TF4308C2C,Male,Bachelor of Education,True,Superintendent II,French,2,True,GES permanent
+530,T99011065,Male,HND,False,Not ranked (untrained),English Language,3,True,National Service
+531,TCE197FD7,Male,Bachelor of Education,True,Principal Superintendent,Mathematics,16,True,GES permanent
+532,TC5904F69,Male,Diploma in Basic Education,True,Superintendent II,Integrated Science,2,True,GES permanent
+533,TB5CAB567,Female,Bachelor of Education,True,Assistant Director II,Social Studies,20,False,GES permanent
+534,T68DC5C82,Female,Diploma in Basic Education,True,Assistant Director II,Religious and Moral Education,24,True,GES permanent
+535,TE6359E03,Male,Bachelor of Education,True,Assistant Director II,Computing,23,True,GES permanent
+536,T1939D460,Female,Diploma in Basic Education,True,Senior Superintendent II,Ghanaian Language,7,True,GES permanent
+537,T6238D127,Male,Bachelor of Education,True,Principal Superintendent,Career Technology,15,True,GES permanent
+538,TBC9BA5DC,Female,Diploma in Basic Education,True,Senior Superintendent II,Creative Arts and Design,8,True,GES permanent
+539,T79F3775E,Male,Bachelor's degree + PGDE,True,Assistant Director I,French,30,False,GES permanent
+540,TFF238B9F,Male,Bachelor of Education,True,Superintendent I,English Language,3,False,GES permanent
+541,T1EB8E3E3,Female,Bachelor's degree + PGDE,True,Assistant Director I,English Language,32,False,GES permanent
+542,T986B3FAC,Female,Bachelor's degree (non-education),False,Not ranked (untrained),Core Mathematics,3,False,Community volunteer
+543,T6908BDB5,Male,Bachelor of Education,True,Assistant Director I,Core Mathematics,30,False,GES permanent
+544,TD4F23502,Male,Bachelor of Education,True,Assistant Director I,Integrated Science,26,True,GES permanent
+545,TF44C42A9,Male,WASSCE/SSSCE,False,Not ranked (untrained),Integrated Science,0,True,National Service
+546,T4AA1D0F7,Male,Bachelor of Education,True,Assistant Director I,Social Studies,25,False,GES permanent
+547,T7B346133,Male,Bachelor of Education,True,Assistant Director I,Social Studies,32,False,GES permanent
+548,T89539BB6,Male,Bachelor of Education,True,Assistant Director I,Animal Husbandry,26,False,GES permanent
+549,T5E3AD37D,Female,Bachelor of Education,True,Assistant Director I,Biology,26,True,GES permanent
+550,T26AE0FB0,Female,Diploma in Basic Education,True,Senior Superintendent II,Business Management,10,False,GES permanent
+551,T3E59339A,Male,Bachelor's degree + PGDE,True,Assistant Director II,Cost Accounting,23,False,GES permanent
+552,T498EA023,Male,Bachelor of Education,True,Principal Superintendent,Chemistry,15,True,GES permanent
+553,TD25C6943,Male,Bachelor of Education,True,Assistant Director II,Christian Religious Studies,21,False,GES permanent
+554,TBB795396,Male,Master's degree,True,Senior Superintendent I,Economics,11,True,GES permanent
+555,TC71DFC49,Male,Bachelor of Education,True,Assistant Director I,Elective Mathematics,33,True,GES permanent
+556,TEDDA3F9A,Female,Bachelor of Education,True,Assistant Director II,Financial Accounting,22,True,GES permanent
+557,TCB00247A,Female,Master's degree,True,Assistant Director I,Food and Nutrition,25,False,GES permanent
+558,T9AA6E87C,Male,Bachelor's degree + PGDE,True,Senior Superintendent I,General Agriculture,12,False,GES permanent
+559,T85F8A2BA,Male,Master's degree,True,Senior Superintendent II,Geography,7,False,GES permanent
+560,TD22033F0,Male,Bachelor of Education,True,Senior Superintendent II,General Knowledge in Art,8,True,GES permanent
+561,TDD357F75,Female,Diploma in Basic Education,True,Superintendent I,Government,3,True,GES permanent
+562,T44C9D241,Female,Bachelor's degree + PGDE,True,Senior Superintendent I,History,11,True,GES permanent
+563,TAB741A42,Female,Bachelor's degree (non-education),False,Not ranked (untrained),Literature-in-English,2,True,Community volunteer
+564,T8405F517,Male,Bachelor of Education,True,Assistant Director I,Management in Living,33,False,GES permanent
+565,T3FA49C0B,Male,HND,False,Not ranked (untrained),Physics,3,False,Community volunteer
+566,TA1266F9E,Male,Bachelor's degree + PGDE,True,Senior Superintendent II,English Language,8,False,GES permanent
+567,T7AE18101,Male,Master's degree,True,Assistant Director I,Core Mathematics,31,False,GES permanent
+568,T45AE8494,Male,Bachelor's degree + PGDE,True,Senior Superintendent II,Integrated Science,8,True,GES permanent
+569,T71EFF7CF,Female,WASSCE/SSSCE,False,Not ranked (untrained),Social Studies,1,True,Community volunteer
+570,T49649BA9,Female,Bachelor's degree (non-education),False,Not ranked (untrained),Animal Husbandry,3,False,National Service
+571,T6923376A,Male,Bachelor's degree (non-education),False,Not ranked (untrained),Biology,2,True,Community volunteer
+572,TB0540A9F,Female,Diploma in Basic Education,True,Assistant Director I,Chemistry,33,True,GES permanent
+573,TCBA8CDF7,Female,Master's degree,True,Assistant Director I,Christian Religious Studies,26,True,GES permanent
+574,TC8A83229,Male,HND,False,Not ranked (untrained),Economics,1,False,National Service
+575,T6F522414,Male,Master's degree,True,Principal Superintendent,General Agriculture,17,True,GES permanent
+576,TFDB69C30,Male,WASSCE/SSSCE,False,Not ranked (untrained),Geography,1,True,National Service
+577,TEE4C9445,Female,HND,False,Not ranked (untrained),Government,3,True,National Service
+578,T355B7DD6,Male,Bachelor of Education,True,Senior Superintendent I,History,12,False,GES permanent
+579,TFA653431,Male,Bachelor's degree (non-education),False,Not ranked (untrained),Literature-in-English,3,False,Community volunteer
+580,T417A2744,Female,Diploma in Basic Education,True,Superintendent II,English Language,1,False,GES permanent
+581,T963612DD,Female,Bachelor of Education,True,Senior Superintendent I,Mathematics,14,True,GES permanent
+582,T4DBE40E8,Male,Bachelor's degree + PGDE,True,Senior Superintendent II,Integrated Science,8,False,GES permanent
+583,T8B92B7E2,Male,Bachelor of Education,True,Superintendent I,Social Studies,5,True,GES permanent
+584,TFF1D14EC,Male,Diploma in Basic Education,True,Assistant Director I,Religious and Moral Education,33,True,GES permanent
+585,T5EAED8C9,Male,Diploma in Basic Education,True,Superintendent II,Computing,1,False,GES permanent
+586,TE0DF432F,Male,Bachelor of Education,True,Superintendent II,Ghanaian Language,1,True,GES permanent
+587,T6873BF84,Female,Bachelor of Education,True,Assistant Director I,Career Technology,30,True,GES permanent
+588,TDE1EA37B,Male,Bachelor of Education,True,Superintendent I,Creative Arts and Design,4,False,GES permanent
+589,T317A18B9,Male,Diploma in Basic Education,True,Superintendent I,French,4,False,GES permanent
+590,T3C7BE07D,Male,Bachelor of Education,True,Assistant Director I,English Language,28,False,GES permanent
+591,TC2CA92F0,Male,HND,False,Not ranked (untrained),Mathematics,0,False,National Service
+592,T64C7F6BE,Male,Diploma in Basic Education,True,Senior Superintendent II,Integrated Science,7,True,GES permanent
+593,T9365043C,Male,Diploma in Basic Education,True,Senior Superintendent I,Social Studies,14,False,GES permanent
+594,T6A423931,Female,WASSCE/SSSCE,False,Not ranked (untrained),Religious and Moral Education,3,False,National Service
+595,T466E010E,Female,Bachelor of Education,True,Assistant Director II,Computing,20,True,GES permanent
+596,T923941BA,Male,Bachelor of Education,True,Assistant Director I,Ghanaian Language,31,False,GES permanent
+597,TA2086A49,Male,Diploma in Basic Education,True,Senior Superintendent I,Career Technology,13,True,GES permanent
+598,T8635A0A3,Female,Diploma in Basic Education,True,Assistant Director I,Creative Arts and Design,26,True,GES permanent
+599,TD703DE3F,Male,Diploma in Basic Education,True,Superintendent I,French,3,True,GES permanent
+600,TDC81B6FA,Male,Master's degree,True,Principal Superintendent,English Language,18,False,GES permanent
+601,T361595E5,Female,Diploma in Basic Education,True,Assistant Director I,Mathematics,29,False,GES permanent
+602,T5B53E991,Female,Bachelor's degree + PGDE,True,Assistant Director II,Integrated Science,22,False,GES permanent
+603,T7DAB8B1D,Female,WASSCE/SSSCE,False,Not ranked (untrained),Social Studies,1,False,National Service
+604,TC492A853,Male,WASSCE/SSSCE,False,Not ranked (untrained),Religious and Moral Education,2,True,National Service
+605,T40A77F79,Male,Diploma in Basic Education,True,Assistant Director I,Computing,31,True,GES permanent
+606,TCD83D5DD,Female,Diploma in Basic Education,True,Assistant Director II,Ghanaian Language,22,True,GES permanent
+607,T39AF1366,Female,Diploma in Basic Education,True,Assistant Director I,Career Technology,32,False,GES permanent
+608,TC2BDCBDF,Male,Diploma in Basic Education,True,Senior Superintendent I,Creative Arts and Design,14,True,GES permanent
+609,T71F60CC0,Male,Bachelor's degree (non-education),False,Not ranked (untrained),French,0,True,Community volunteer
+610,TB17ED349,Male,Diploma in Basic Education,True,Principal Superintendent,English Language,19,True,GES permanent
+611,T4CE4C402,Female,Master's degree,True,Assistant Director II,Mathematics,22,True,GES permanent
+612,T1C1EEF7F,Female,WASSCE/SSSCE,False,Not ranked (untrained),Integrated Science,2,True,National Service
+613,TA2B713A4,Female,Diploma in Basic Education,True,Assistant Director II,Social Studies,24,False,GES permanent
+614,T9A9C5BCB,Male,Diploma in Basic Education,True,Principal Superintendent,Religious and Moral Education,16,True,GES permanent
+615,TD5030EE3,Male,WASSCE/SSSCE,False,Not ranked (untrained),Computing,3,True,Community volunteer
+616,T8EB7407D,Female,Diploma in Basic Education,True,Assistant Director II,Ghanaian Language,22,True,GES permanent
+617,T99A52B14,Male,Bachelor of Education,True,Senior Superintendent II,Career Technology,10,True,GES permanent
+618,T9BCC664F,Male,Bachelor of Education,True,Superintendent I,Creative Arts and Design,4,False,GES permanent
+619,T51CF6E06,Female,Diploma in Basic Education,True,Senior Superintendent I,French,13,True,GES permanent
+620,T8DA912A9,Male,Bachelor of Education,True,Assistant Director II,English Language,21,False,GES permanent
+621,TFBFA4B07,Male,Bachelor of Education,True,Senior Superintendent I,English Language,13,False,GES permanent
+622,TFEDE6283,Male,Bachelor of Education,True,Assistant Director II,Core Mathematics,24,False,GES permanent
+623,T74829B33,Male,Bachelor's degree + PGDE,True,Assistant Director I,Core Mathematics,29,False,GES permanent
+624,TC5BBA1E2,Female,Master's degree,True,Assistant Director I,Integrated Science,26,True,GES permanent
+625,T98D41B6F,Male,Bachelor of Education,True,Assistant Director II,Integrated Science,23,False,GES permanent
+626,T44CBFD13,Female,Bachelor of Education,True,Superintendent II,Social Studies,2,False,GES permanent
+627,T99F9985F,Female,Bachelor's degree + PGDE,True,Assistant Director I,Social Studies,30,False,GES permanent
+628,T640E5929,Female,Bachelor's degree + PGDE,True,Senior Superintendent I,Animal Husbandry,11,True,GES permanent
+629,T442C981D,Female,Diploma in Basic Education,True,Assistant Director I,Biology,27,True,GES permanent
+630,TCF571D5C,Male,Bachelor of Education,True,Assistant Director II,Business Management,20,False,GES permanent
+631,T2CA3C45C,Female,Bachelor's degree + PGDE,True,Superintendent I,Cost Accounting,5,False,GES permanent
+632,T5F248EEE,Male,Bachelor of Education,True,Principal Superintendent,Chemistry,18,False,GES permanent
+633,T7F30942E,Male,HND,False,Not ranked (untrained),Christian Religious Studies,0,False,National Service
+634,TC5D8036A,Male,Bachelor of Education,True,Senior Superintendent I,Economics,12,False,GES permanent
+635,T2F546660,Female,Bachelor of Education,True,Senior Superintendent I,Elective Mathematics,14,False,GES permanent
+636,T5210CD8B,Female,Bachelor of Education,True,Assistant Director II,Financial Accounting,21,False,GES permanent
+637,TBFAF0BB3,Male,WASSCE/SSSCE,False,Not ranked (untrained),Food and Nutrition,1,False,Community volunteer
+638,TEC5F39EC,Female,Diploma in Basic Education,True,Assistant Director II,General Agriculture,20,True,GES permanent
+639,TE4655C16,Male,WASSCE/SSSCE,False,Not ranked (untrained),Geography,3,False,Community volunteer
+640,T830953C4,Female,HND,False,Not ranked (untrained),General Knowledge in Art,0,True,National Service
+641,TD9E397D6,Female,Bachelor's degree + PGDE,True,Assistant Director I,Government,30,False,GES permanent
+642,T6EBD1B47,Male,Master's degree,True,Assistant Director I,History,32,True,GES permanent
+643,T3EB66198,Female,Diploma in Basic Education,True,Assistant Director II,Literature-in-English,23,False,GES permanent
+644,T6F756AC5,Male,Bachelor of Education,True,Superintendent II,Management in Living,2,True,GES permanent
+645,T21489256,Male,Bachelor's degree (non-education),False,Not ranked (untrained),Physics,0,False,Community volunteer
+646,TFB1A7A19,Female,Bachelor of Education,True,Assistant Director II,English Language,22,False,GES permanent
+647,TC810621D,Male,Bachelor of Education,True,Senior Superintendent I,English Language,11,False,GES permanent
+648,TC36A031D,Male,Bachelor of Education,True,Senior Superintendent I,Core Mathematics,11,True,GES permanent
+649,T2927A6F0,Male,Bachelor's degree + PGDE,True,Assistant Director I,Core Mathematics,29,True,GES permanent
+650,T5F094EE2,Female,Bachelor of Education,True,Assistant Director I,Integrated Science,27,True,GES permanent
+651,T587FF172,Male,Bachelor of Education,True,Assistant Director I,Integrated Science,32,False,GES permanent
+652,T57A69FA4,Female,Bachelor of Education,True,Senior Superintendent I,Social Studies,14,True,GES permanent
+653,T3E90ADBB,Female,Bachelor of Education,True,Superintendent II,Social Studies,2,False,GES permanent
+654,T7984F287,Female,Diploma in Basic Education,True,Superintendent II,Animal Husbandry,1,False,GES permanent
+655,T78183C24,Female,Master's degree,True,Senior Superintendent II,Biology,7,True,GES permanent
+656,T47F454E8,Female,Diploma in Basic Education,True,Senior Superintendent II,Business Management,10,False,GES permanent
+657,TECBA36B9,Male,Master's degree,True,Assistant Director II,Cost Accounting,23,True,GES permanent
+658,TD1DB3532,Male,Master's degree,True,Superintendent II,Chemistry,2,False,GES permanent
+659,T6EF71408,Male,Master's degree,True,Assistant Director I,Christian Religious Studies,32,False,GES permanent
+660,T60B5A4CA,Female,Bachelor of Education,True,Senior Superintendent II,Economics,9,True,GES permanent
+661,TAD8DC571,Female,Bachelor of Education,True,Assistant Director II,Elective Mathematics,23,False,GES permanent
+662,T8989EF83,Female,Bachelor of Education,True,Superintendent II,Financial Accounting,2,False,GES permanent
+663,TBA1EF19E,Female,Bachelor's degree + PGDE,True,Assistant Director II,Food and Nutrition,20,True,GES permanent
+664,TAFB7CDD4,Female,Master's degree,True,Assistant Director I,General Agriculture,33,True,GES permanent
+665,TB8205310,Female,Bachelor of Education,True,Principal Superintendent,Geography,17,False,GES permanent
+666,T71164A82,Male,Bachelor's degree + PGDE,True,Superintendent I,General Knowledge in Art,6,False,GES permanent
+667,T2BC0E440,Female,Bachelor of Education,True,Senior Superintendent I,Government,12,False,GES permanent
+668,T4D47478F,Female,Bachelor of Education,True,Senior Superintendent II,History,9,False,GES permanent
+669,TBFD3EC19,Female,Bachelor of Education,True,Principal Superintendent,Literature-in-English,16,True,GES permanent
+670,T5E6AB6A4,Female,Bachelor of Education,True,Senior Superintendent II,Management in Living,7,True,GES permanent
+671,TB6EAA3B8,Female,Bachelor of Education,True,Assistant Director I,Physics,28,True,GES permanent
+672,T85D9676F,Male,Bachelor of Education,True,Assistant Director II,English Language,22,False,Private
+673,T7E66082D,Male,Diploma in Basic Education,True,Senior Superintendent I,Mathematics,11,True,Private
+674,T8DB90C17,Female,HND,False,Not ranked (untrained),Integrated Science,0,False,Private
+675,T10363D8E,Female,Bachelor's degree (non-education),False,Not ranked (untrained),Social Studies,1,False,Private
+676,T3ABF8A09,Female,WASSCE/SSSCE,False,Not ranked (untrained),Religious and Moral Education,0,False,Private
+677,TBB54E3A2,Male,WASSCE/SSSCE,False,Not ranked (untrained),Computing,2,True,Private
+678,TFA1B5C63,Female,Bachelor of Education,True,Assistant Director I,Ghanaian Language,30,False,Private
+679,TAF1E73E2,Female,Diploma in Basic Education,True,Superintendent I,Career Technology,6,False,Private
+680,T3910BCB7,Female,Bachelor of Education,True,Assistant Director II,Creative Arts and Design,20,False,Private
+681,T1F3AF74C,Female,HND,False,Not ranked (untrained),French,2,False,Private
+682,TE45766E5,Male,Master's degree,True,Principal Superintendent,English Language,17,True,GES permanent
+683,T619DC5F7,Male,Bachelor of Education,True,Assistant Director I,Mathematics,26,False,GES permanent
+684,T562A7515,Female,WASSCE/SSSCE,False,Not ranked (untrained),Integrated Science,2,False,National Service
+685,T29DCA287,Male,Diploma in Basic Education,True,Senior Superintendent I,Social Studies,13,True,GES permanent
+686,T5BA24A1C,Female,Diploma in Basic Education,True,Assistant Director I,Religious and Moral Education,25,True,GES permanent
+687,TD0DF9310,Female,Bachelor of Education,True,Superintendent II,Computing,2,False,GES permanent
+688,T5D5A4FDE,Male,Bachelor of Education,True,Assistant Director I,Ghanaian Language,27,True,GES permanent
+689,T53AC1458,Female,HND,False,Not ranked (untrained),Career Technology,0,False,Community volunteer
+690,T87F0679B,Male,Diploma in Basic Education,True,Principal Superintendent,Creative Arts and Design,18,False,GES permanent
+691,TBFEF57DF,Female,Diploma in Basic Education,True,Assistant Director II,French,22,False,GES permanent
+692,TF35A7C77,Male,WASSCE/SSSCE,False,Not ranked (untrained),English Language,3,False,Community volunteer
+693,T5A040F22,Male,Bachelor's degree + PGDE,True,Superintendent II,Mathematics,2,True,GES permanent
+694,T2D71FAFD,Female,Bachelor's degree (non-education),False,Not ranked (untrained),Integrated Science,0,False,National Service
+695,T8CA82B95,Female,HND,False,Not ranked (untrained),Social Studies,3,True,Community volunteer
+696,T59F21B74,Female,Bachelor of Education,True,Superintendent I,Religious and Moral Education,6,True,GES permanent
+697,TD205EFCA,Male,Bachelor of Education,True,Superintendent II,Computing,2,True,GES permanent
+698,TCE520F06,Female,Bachelor of Education,True,Principal Superintendent,Ghanaian Language,16,True,GES permanent
+699,TDE6A3B3D,Female,Diploma in Basic Education,True,Superintendent I,Career Technology,6,False,GES permanent
+700,TED2C27B0,Male,WASSCE/SSSCE,False,Not ranked (untrained),Creative Arts and Design,2,True,Community volunteer
+701,T7EBB8384,Female,Bachelor of Education,True,Principal Superintendent,French,19,True,GES permanent
+702,T4FEACF76,Male,Bachelor of Education,True,Superintendent I,English Language,6,False,GES permanent
+703,TB1CAD172,Female,Bachelor of Education,True,Assistant Director II,Mathematics,23,False,GES permanent
+704,T19C8045D,Male,Bachelor of Education,True,Senior Superintendent I,Integrated Science,14,False,GES permanent
+705,TFB2DDF63,Female,Bachelor's degree + PGDE,True,Principal Superintendent,Social Studies,19,True,GES permanent
+706,T42DC5CB6,Female,Diploma in Basic Education,True,Assistant Director I,Religious and Moral Education,33,True,GES permanent
+707,T9064DCF1,Male,Diploma in Basic Education,True,Assistant Director II,Computing,21,True,GES permanent
+708,T64B3CFF3,Female,Bachelor's degree (non-education),False,Not ranked (untrained),Ghanaian Language,2,False,Community volunteer
+709,T91D6DAA4,Male,Diploma in Basic Education,True,Senior Superintendent I,Career Technology,11,False,GES permanent
+710,T41A4A188,Male,Bachelor of Education,True,Senior Superintendent II,Creative Arts and Design,9,False,GES permanent
+711,TC2D8E656,Male,Bachelor's degree (non-education),False,Not ranked (untrained),French,3,True,National Service
+712,TA080BEB8,Male,Diploma in Basic Education,True,Principal Superintendent,English Language,17,True,GES permanent
+713,TA646BAC3,Female,Master's degree,True,Superintendent I,English Language,4,False,GES permanent
+714,T368B3AA8,Male,Bachelor of Education,True,Senior Superintendent II,Core Mathematics,7,False,GES permanent
+715,T2D75DE97,Female,Bachelor of Education,True,Superintendent I,Core Mathematics,3,False,GES permanent
+716,T33882EE1,Female,Diploma in Basic Education,True,Superintendent I,Integrated Science,6,False,GES permanent
+717,TBD976617,Male,Bachelor's degree (non-education),False,Not ranked (untrained),Integrated Science,2,False,Community volunteer
+718,T16B2FC11,Female,Bachelor's degree + PGDE,True,Superintendent I,Social Studies,5,False,GES permanent
+719,T8CD73193,Male,Bachelor of Education,True,Principal Superintendent,Social Studies,16,False,GES permanent
+720,TA6D4E063,Female,Bachelor of Education,True,Assistant Director II,Animal Husbandry,23,False,GES permanent
+721,T6EC73EF0,Male,Master's degree,True,Principal Superintendent,Biology,18,True,GES permanent
+722,T1D3906E1,Female,Bachelor of Education,True,Principal Superintendent,Business Management,15,False,GES permanent
+723,T28273E39,Female,Bachelor of Education,True,Senior Superintendent II,Cost Accounting,9,False,GES permanent
+724,T359193F5,Male,Bachelor of Education,True,Principal Superintendent,Chemistry,15,False,GES permanent
+725,TCB84463C,Male,Bachelor of Education,True,Assistant Director II,Christian Religious Studies,21,False,GES permanent
+726,TCE63EBD0,Male,Bachelor of Education,True,Assistant Director I,Economics,32,False,GES permanent
+727,TF953ACAC,Male,Bachelor of Education,True,Assistant Director II,Elective Mathematics,21,False,GES permanent
+728,T2D5E1D3D,Male,Bachelor of Education,True,Superintendent II,Financial Accounting,1,True,GES permanent
+729,TEACD9463,Male,Bachelor of Education,True,Assistant Director I,Food and Nutrition,26,True,GES permanent
+730,T62DE192A,Male,WASSCE/SSSCE,False,Not ranked (untrained),General Agriculture,1,True,National Service
+731,TF69F0B99,Female,Bachelor of Education,True,Assistant Director I,Geography,26,False,GES permanent
+732,TBABD983C,Male,Bachelor of Education,True,Assistant Director I,General Knowledge in Art,31,True,GES permanent
+733,T7DA1AB10,Female,Diploma in Basic Education,True,Superintendent I,Government,3,True,GES permanent
+734,T8828757C,Female,Master's degree,True,Assistant Director I,History,26,False,GES permanent
+735,T3B4CAAC0,Male,Bachelor of Education,True,Assistant Director I,Literature-in-English,27,False,GES permanent
+736,T81A69BBC,Male,Bachelor of Education,True,Principal Superintendent,Management in Living,15,True,GES permanent
+737,T88F4DC76,Male,Bachelor's degree + PGDE,True,Superintendent I,Physics,3,True,GES permanent
+738,T94F1D569,Male,Bachelor of Education,True,Assistant Director II,English Language,20,True,GES permanent
+739,TAD5547A9,Female,Bachelor of Education,True,Principal Superintendent,English Language,16,False,GES permanent
+740,T9E9808F4,Female,Master's degree,True,Senior Superintendent II,Core Mathematics,8,False,GES permanent
+741,TE8A022B4,Male,Bachelor's degree (non-education),False,Not ranked (untrained),Core Mathematics,3,False,Community volunteer
+742,T6FBD266D,Male,Bachelor of Education,True,Senior Superintendent II,Integrated Science,7,True,GES permanent
+743,TD0A5B067,Male,Bachelor of Education,True,Senior Superintendent I,Integrated Science,12,True,GES permanent
+744,TE76C0C2D,Female,Master's degree,True,Senior Superintendent I,Social Studies,12,True,GES permanent
+745,TA3C5527A,Male,Bachelor's degree (non-education),False,Not ranked (untrained),Social Studies,1,True,National Service
+746,T13C10DAA,Female,Bachelor of Education,True,Principal Superintendent,Animal Husbandry,16,True,GES permanent
+747,T9172E34D,Male,Bachelor of Education,True,Principal Superintendent,Biology,18,False,GES permanent
+748,TB1DD9452,Female,Bachelor of Education,True,Assistant Director II,Business Management,22,True,GES permanent
+749,T8FCC7CE0,Male,Diploma in Basic Education,True,Principal Superintendent,Cost Accounting,17,False,GES permanent
+750,TC2181C1B,Female,Bachelor of Education,True,Senior Superintendent II,Chemistry,9,True,GES permanent
+751,TBCE4A08B,Male,Master's degree,True,Assistant Director II,Christian Religious Studies,24,True,GES permanent
+752,TE9771FB2,Female,Master's degree,True,Assistant Director I,Economics,30,True,GES permanent
+753,TE9ECD6E9,Female,Bachelor's degree + PGDE,True,Assistant Director I,Elective Mathematics,30,True,GES permanent
+754,TDAB95945,Male,Bachelor of Education,True,Senior Superintendent I,Financial Accounting,11,False,GES permanent
+755,T513A6849,Male,Bachelor of Education,True,Assistant Director I,Food and Nutrition,27,False,GES permanent
+756,TDCC59C49,Female,Bachelor's degree + PGDE,True,Senior Superintendent I,General Agriculture,14,True,GES permanent
+757,TE3D96E64,Female,Bachelor of Education,True,Assistant Director II,Geography,24,True,GES permanent
+758,T99D84DAF,Female,Bachelor of Education,True,Assistant Director II,General Knowledge in Art,22,True,GES permanent
+759,T747B9E0E,Male,Bachelor of Education,True,Senior Superintendent II,Government,9,False,GES permanent
+760,T77769FB4,Male,Master's degree,True,Assistant Director I,History,29,True,GES permanent
+761,TC23EEC04,Female,Bachelor of Education,True,Superintendent II,Literature-in-English,1,False,GES permanent
+762,T5F934EB8,Male,Bachelor of Education,True,Superintendent I,Management in Living,5,False,GES permanent
+763,T87BAAB00,Female,Bachelor's degree + PGDE,True,Superintendent II,Physics,1,False,GES permanent
+764,T9135C256,Male,Diploma in Basic Education,True,Senior Superintendent II,English Language,8,True,GES permanent
+765,T16CC5123,Male,Diploma in Basic Education,True,Superintendent II,Mathematics,1,False,GES permanent
+766,T81147727,Female,Diploma in Basic Education,True,Superintendent II,Integrated Science,1,True,GES permanent
+767,T229C3ACF,Female,WASSCE/SSSCE,False,Not ranked (untrained),Social Studies,3,False,National Service
+768,T77396321,Male,HND,False,Not ranked (untrained),Religious and Moral Education,0,True,National Service
+769,TE97DA19D,Female,Bachelor's degree + PGDE,True,Principal Superintendent,Computing,16,False,GES permanent
+770,TD99EB2C2,Female,Diploma in Basic Education,True,Principal Superintendent,Ghanaian Language,18,True,GES permanent
+771,T7B9DF636,Female,Diploma in Basic Education,True,Assistant Director I,Career Technology,33,False,GES permanent
+772,TD6CAC48F,Female,Bachelor of Education,True,Assistant Director I,Creative Arts and Design,32,True,GES permanent
+773,TE76CDC9F,Female,Bachelor of Education,True,Principal Superintendent,French,16,True,GES permanent
+774,T8A793D12,Male,Bachelor of Education,True,Assistant Director I,English Language,31,False,GES permanent
+775,T59165348,Male,Diploma in Basic Education,True,Assistant Director II,Mathematics,24,False,GES permanent
+776,T65E63C0C,Female,Diploma in Basic Education,True,Superintendent I,Integrated Science,3,False,GES permanent
+777,T80164607,Male,Bachelor of Education,True,Assistant Director I,Social Studies,26,True,GES permanent
+778,TF80143E2,Female,WASSCE/SSSCE,False,Not ranked (untrained),Religious and Moral Education,2,True,National Service
+779,T8824AF14,Female,Bachelor's degree (non-education),False,Not ranked (untrained),Computing,1,False,National Service
+780,T58E85569,Male,WASSCE/SSSCE,False,Not ranked (untrained),Ghanaian Language,2,False,National Service
+781,TC30CC7BA,Male,Bachelor of Education,True,Principal Superintendent,Career Technology,17,False,GES permanent
+782,TB2CBB18F,Female,WASSCE/SSSCE,False,Not ranked (untrained),Creative Arts and Design,2,False,National Service
+783,T22F7C75A,Male,Bachelor of Education,True,Principal Superintendent,French,17,False,GES permanent
+784,T43C07BEB,Female,Bachelor of Education,True,Principal Superintendent,English Language,17,True,GES permanent
+785,T5B6D2EED,Female,HND,False,Not ranked (untrained),Mathematics,1,False,National Service
+786,T688BACC3,Male,Diploma in Basic Education,True,Senior Superintendent II,Integrated Science,9,True,GES permanent
+787,T7366B64F,Male,Diploma in Basic Education,True,Senior Superintendent I,Social Studies,14,False,GES permanent
+788,T8148A8B8,Male,Bachelor's degree (non-education),False,Not ranked (untrained),Religious and Moral Education,0,False,National Service
+789,TB031DA2B,Female,Bachelor's degree (non-education),False,Not ranked (untrained),Computing,2,True,Community volunteer
+790,TE212FE7D,Female,WASSCE/SSSCE,False,Not ranked (untrained),Ghanaian Language,0,False,National Service
+791,T113DE897,Male,Bachelor's degree + PGDE,True,Assistant Director I,Career Technology,25,True,GES permanent
+792,TEAE44382,Female,Bachelor of Education,True,Superintendent I,Creative Arts and Design,6,True,GES permanent
+793,T97B03FF9,Female,Diploma in Basic Education,True,Superintendent II,French,1,False,GES permanent
+794,TF1A39E59,Male,Bachelor of Education,True,Senior Superintendent II,English Language,9,False,GES permanent
+795,T674B6F82,Male,Bachelor of Education,True,Superintendent II,Mathematics,1,True,GES permanent
+796,TD2043192,Male,Diploma in Basic Education,True,Senior Superintendent I,Integrated Science,12,False,GES permanent
+797,T1C957322,Male,Diploma in Basic Education,True,Assistant Director I,Social Studies,29,False,GES permanent
+798,T3A999CF8,Male,Bachelor's degree (non-education),False,Not ranked (untrained),Religious and Moral Education,3,False,National Service
+799,TE268B99A,Male,Bachelor's degree (non-education),False,Not ranked (untrained),Computing,3,True,National Service
+800,T23D192FC,Male,Bachelor's degree + PGDE,True,Superintendent II,Ghanaian Language,2,False,GES permanent
+801,T44FCBB55,Male,Bachelor's degree (non-education),False,Not ranked (untrained),Career Technology,1,True,Community volunteer
+802,T6F8C9D60,Male,Bachelor's degree + PGDE,True,Assistant Director I,Creative Arts and Design,25,True,GES permanent
+803,T45286EBA,Male,Diploma in Basic Education,True,Superintendent I,French,4,False,GES permanent
+804,TF4AC9F38,Female,Bachelor of Education,True,Senior Superintendent I,English Language,14,False,GES permanent
+805,T5AFB9EDC,Male,WASSCE/SSSCE,False,Not ranked (untrained),English Language,0,False,Community volunteer
+806,T2F26E7D5,Female,Bachelor of Education,True,Senior Superintendent I,Core Mathematics,11,False,GES permanent
+807,T6C9D8B4F,Female,Bachelor's degree + PGDE,True,Senior Superintendent II,Core Mathematics,10,True,GES permanent
+808,T26837278,Male,Bachelor of Education,True,Superintendent II,Integrated Science,1,True,GES permanent
+809,TB7528183,Male,Bachelor of Education,True,Principal Superintendent,Integrated Science,17,True,GES permanent
+810,TDC0FFFDF,Male,HND,False,Not ranked (untrained),Social Studies,0,False,National Service
+811,TA0419C49,Female,Bachelor of Education,True,Superintendent II,Social Studies,2,True,GES permanent
+812,T4B945C82,Male,Bachelor of Education,True,Assistant Director I,Animal Husbandry,29,True,GES permanent
+813,T8D6F9FBE,Female,Bachelor of Education,True,Principal Superintendent,Biology,19,False,GES permanent
+814,T63BCFD20,Male,Bachelor's degree + PGDE,True,Senior Superintendent I,Business Management,12,True,GES permanent
+815,TBCE27978,Female,Bachelor of Education,True,Principal Superintendent,Cost Accounting,16,False,GES permanent
+816,T1F919A42,Male,Bachelor of Education,True,Senior Superintendent I,Chemistry,14,False,GES permanent
+817,T67E23CB5,Female,Bachelor of Education,True,Senior Superintendent II,Christian Religious Studies,7,True,GES permanent
+818,TDA137D55,Male,Bachelor of Education,True,Assistant Director I,Economics,31,True,GES permanent
+819,T613DCB9D,Female,Bachelor's degree + PGDE,True,Assistant Director II,Elective Mathematics,24,True,GES permanent
+820,T2C625864,Female,Bachelor of Education,True,Principal Superintendent,Financial Accounting,18,True,GES permanent
+821,T8A5D1426,Female,Master's degree,True,Assistant Director I,Food and Nutrition,28,True,GES permanent
+822,T7C07B62E,Male,Bachelor of Education,True,Assistant Director I,General Agriculture,33,False,GES permanent
+823,T93F43A6E,Male,Bachelor of Education,True,Assistant Director I,Geography,32,False,GES permanent
+824,TB7FCB25D,Male,Bachelor of Education,True,Assistant Director I,General Knowledge in Art,26,False,GES permanent
+825,TD7CD0DCC,Female,Bachelor of Education,True,Assistant Director I,Government,33,True,GES permanent
+826,TF5C3119C,Female,Bachelor's degree (non-education),False,Not ranked (untrained),History,2,True,Community volunteer
+827,T64A8CEBE,Female,Bachelor of Education,True,Assistant Director I,Literature-in-English,29,True,GES permanent
+828,TCE34CDBB,Male,Bachelor of Education,True,Assistant Director II,Management in Living,22,False,GES permanent
+829,T108B8D88,Female,Bachelor of Education,True,Assistant Director II,Physics,23,False,GES permanent
+830,T3D682910,Male,Bachelor of Education,True,Principal Superintendent,English Language,18,True,GES permanent
+831,T16B83B4A,Male,Master's degree,True,Senior Superintendent I,English Language,13,True,GES permanent
+832,T6C20B2EE,Male,Master's degree,True,Assistant Director II,Core Mathematics,20,True,GES permanent
+833,TDC2947EA,Female,Bachelor of Education,True,Senior Superintendent II,Core Mathematics,7,True,GES permanent
+834,T6CD07B21,Male,Bachelor of Education,True,Principal Superintendent,Integrated Science,18,False,GES permanent
+835,T5D5598B6,Male,Bachelor of Education,True,Assistant Director II,Integrated Science,20,False,GES permanent
+836,TD8376896,Female,Bachelor of Education,True,Assistant Director I,Social Studies,29,True,GES permanent
+837,T385DEFA2,Male,Bachelor of Education,True,Assistant Director I,Social Studies,33,True,GES permanent
+838,TC5A6D76B,Male,HND,False,Not ranked (untrained),Animal Husbandry,2,False,Community volunteer
+839,T4BE294B9,Female,Bachelor of Education,True,Assistant Director I,Biology,29,True,GES permanent
+840,TBF212AB0,Male,Bachelor of Education,True,Assistant Director II,Business Management,24,False,GES permanent
+841,TA8D57C9A,Male,Bachelor's degree (non-education),False,Not ranked (untrained),Cost Accounting,1,True,Community volunteer
+842,TA408E977,Female,Bachelor of Education,True,Assistant Director I,Chemistry,29,True,GES permanent
+843,T4A9FD15A,Male,Bachelor of Education,True,Senior Superintendent II,Christian Religious Studies,10,False,GES permanent
+844,T749D6FB2,Male,Bachelor of Education,True,Assistant Director I,Economics,29,True,GES permanent
+845,TC98BD6D2,Male,Bachelor's degree + PGDE,True,Senior Superintendent II,Elective Mathematics,7,True,GES permanent
+846,T63001326,Male,Bachelor's degree + PGDE,True,Principal Superintendent,Financial Accounting,17,True,GES permanent
+847,TE6DB3063,Female,Bachelor of Education,True,Assistant Director II,Food and Nutrition,23,False,GES permanent
+848,T891959E4,Male,Bachelor of Education,True,Assistant Director I,General Agriculture,31,False,GES permanent
+849,TC4062B25,Female,Bachelor of Education,True,Principal Superintendent,Geography,18,False,GES permanent
+850,T1837FC59,Male,Bachelor's degree + PGDE,True,Superintendent II,General Knowledge in Art,1,False,GES permanent
+851,T475A42D9,Female,Bachelor of Education,True,Superintendent I,Government,3,True,GES permanent
+852,TC528F45D,Female,Bachelor of Education,True,Senior Superintendent I,History,11,False,GES permanent
+853,TEF22631E,Male,Bachelor of Education,True,Principal Superintendent,Literature-in-English,15,True,GES permanent
+854,TF2066078,Female,Bachelor of Education,True,Senior Superintendent II,Management in Living,7,False,GES permanent
+855,TFD344D40,Female,Bachelor of Education,True,Assistant Director I,Physics,31,True,GES permanent
+856,T98659802,Female,Bachelor of Education,True,Superintendent I,English Language,4,False,GES permanent
+857,TF17D6EA7,Female,Bachelor of Education,True,Assistant Director I,Mathematics,33,True,GES permanent
+858,TECF079AF,Male,Bachelor of Education,True,Senior Superintendent I,Integrated Science,13,False,GES permanent
+859,T4412A1E6,Male,Diploma in Basic Education,True,Principal Superintendent,Social Studies,16,True,GES permanent
+860,T74A4AA29,Female,Diploma in Basic Education,True,Superintendent I,Religious and Moral Education,3,False,GES permanent
+861,TEC48D9D8,Male,Bachelor of Education,True,Superintendent I,Computing,3,True,GES permanent
+862,T6FE9649B,Male,Bachelor of Education,True,Principal Superintendent,Ghanaian Language,15,False,GES permanent
+863,TB5D4A4C7,Female,HND,False,Not ranked (untrained),Career Technology,0,False,National Service
+864,T10AEE32F,Female,Bachelor of Education,True,Assistant Director II,Creative Arts and Design,21,True,GES permanent
+865,TEEAC82FF,Male,Bachelor's degree + PGDE,True,Superintendent I,French,6,True,GES permanent
+866,T33EB0A77,Male,Diploma in Basic Education,True,Principal Superintendent,English Language,17,True,GES permanent
+867,T4E4F5090,Male,Bachelor of Education,True,Assistant Director I,Mathematics,33,False,GES permanent
+868,T52BAA2AC,Female,Diploma in Basic Education,True,Superintendent I,Integrated Science,5,True,GES permanent
+869,TA491ADA5,Male,Diploma in Basic Education,True,Superintendent II,Social Studies,2,True,GES permanent
+870,T6336EED3,Female,Bachelor's degree (non-education),False,Not ranked (untrained),Religious and Moral Education,3,False,Community volunteer
+871,TF77A8763,Female,Bachelor of Education,True,Assistant Director I,Computing,33,True,GES permanent
+872,T4B1F4C6C,Male,Diploma in Basic Education,True,Superintendent II,Ghanaian Language,2,True,GES permanent
+873,TDA8D0009,Male,Diploma in Basic Education,True,Assistant Director I,Career Technology,30,False,GES permanent
+874,TC8CCB3D4,Female,Bachelor's degree + PGDE,True,Assistant Director II,Creative Arts and Design,22,True,GES permanent
+875,T18ADAF12,Male,Bachelor of Education,True,Superintendent I,French,5,False,GES permanent
+876,T36CF8DEB,Female,WASSCE/SSSCE,False,Not ranked (untrained),English Language,1,True,National Service
+877,T77FEE6CB,Male,Diploma in Basic Education,True,Principal Superintendent,Mathematics,18,False,GES permanent
+878,T30AC4FBA,Male,HND,False,Not ranked (untrained),Integrated Science,1,False,Community volunteer
+879,T8D079AFB,Male,Diploma in Basic Education,True,Senior Superintendent I,Social Studies,11,True,GES permanent
+880,TFD7723EA,Male,Bachelor of Education,True,Senior Superintendent I,Religious and Moral Education,11,False,GES permanent
+881,T858F58D5,Female,Diploma in Basic Education,True,Principal Superintendent,Computing,15,False,GES permanent
+882,TDB2BDFCB,Male,Bachelor of Education,True,Superintendent I,Ghanaian Language,3,False,GES permanent
+883,T72E23741,Male,Diploma in Basic Education,True,Superintendent II,Career Technology,1,False,GES permanent
+884,T1143A981,Male,Bachelor of Education,True,Assistant Director I,Creative Arts and Design,32,True,GES permanent
+885,T369A8103,Female,Diploma in Basic Education,True,Senior Superintendent II,French,9,False,GES permanent
+886,TEAD4FCA8,Male,HND,False,Not ranked (untrained),English Language,0,False,National Service
+887,TB6504923,Female,HND,False,Not ranked (untrained),Mathematics,0,False,Community volunteer
+888,TB79E27D2,Male,Bachelor of Education,True,Assistant Director I,Integrated Science,32,False,GES permanent
+889,T897D6464,Male,Diploma in Basic Education,True,Assistant Director I,Social Studies,27,True,GES permanent
+890,T6DCDB39E,Female,Bachelor's degree (non-education),False,Not ranked (untrained),Religious and Moral Education,2,True,Community volunteer
+891,TC60FC1EA,Female,HND,False,Not ranked (untrained),Computing,1,True,National Service
+892,TF707095A,Male,Diploma in Basic Education,True,Assistant Director I,Ghanaian Language,30,False,GES permanent
+893,T3A9110D8,Male,Bachelor's degree (non-education),False,Not ranked (untrained),Career Technology,0,False,National Service
+894,TE108C50C,Female,Bachelor of Education,True,Assistant Director I,Creative Arts and Design,25,False,GES permanent
+895,T5D3FBF83,Male,Bachelor's degree (non-education),False,Not ranked (untrained),French,2,True,National Service
+896,T2BDD4539,Male,Bachelor of Education,True,Superintendent I,English Language,6,True,GES permanent
+897,T2801E13B,Female,Bachelor of Education,True,Assistant Director II,English Language,22,True,GES permanent
+898,TAF93E767,Female,Bachelor of Education,True,Principal Superintendent,Core Mathematics,18,True,GES permanent
+899,TEEB254E4,Female,Bachelor of Education,True,Superintendent I,Core Mathematics,4,True,GES permanent
+900,T963D9F54,Male,Bachelor of Education,True,Principal Superintendent,Integrated Science,15,False,GES permanent
+901,T24384A17,Male,Bachelor's degree (non-education),False,Not ranked (untrained),Integrated Science,0,False,Community volunteer
+902,T13B2F56D,Male,Bachelor's degree + PGDE,True,Assistant Director II,Social Studies,22,False,GES permanent
+903,TB48894AB,Male,Master's degree,True,Assistant Director I,Social Studies,28,True,GES permanent
+904,TBC6E5BA4,Female,Bachelor of Education,True,Assistant Director II,Animal Husbandry,23,False,GES permanent
+905,TCF34A8D4,Male,Bachelor of Education,True,Assistant Director II,Biology,20,False,GES permanent
+906,TAF86FA1E,Female,Master's degree,True,Senior Superintendent I,Business Management,12,False,GES permanent
+907,T4420277D,Male,Bachelor of Education,True,Assistant Director I,Cost Accounting,25,True,GES permanent
+908,T2CAFA867,Female,Bachelor of Education,True,Senior Superintendent II,Chemistry,10,True,GES permanent
+909,TDB5E6FDB,Female,Bachelor of Education,True,Superintendent I,Christian Religious Studies,4,False,GES permanent
+910,T1E702CFE,Male,Bachelor of Education,True,Senior Superintendent II,Economics,7,False,GES permanent
+911,T2AE42142,Male,Bachelor of Education,True,Principal Superintendent,Elective Mathematics,17,True,GES permanent
+912,T77E67DFA,Male,Bachelor of Education,True,Superintendent I,Financial Accounting,5,True,GES permanent
+913,T8D1F4C42,Female,Bachelor of Education,True,Assistant Director I,Food and Nutrition,26,False,GES permanent
+914,T532D7109,Male,Bachelor's degree + PGDE,True,Assistant Director II,General Agriculture,21,False,GES permanent
+915,TB8888D5E,Female,Bachelor of Education,True,Senior Superintendent I,Geography,12,True,GES permanent
+916,T9FF02E57,Male,Bachelor of Education,True,Assistant Director II,General Knowledge in Art,21,False,GES permanent
+917,T37053C75,Female,Bachelor's degree + PGDE,True,Assistant Director I,Government,29,False,GES permanent
+918,T3F885C08,Female,Bachelor of Education,True,Senior Superintendent I,History,11,False,GES permanent
+919,TE01E9E36,Male,Bachelor of Education,True,Assistant Director II,Literature-in-English,22,False,GES permanent
+920,T92F03E9C,Male,Bachelor of Education,True,Assistant Director I,Management in Living,26,False,GES permanent
+921,TDC3F67EC,Male,Bachelor of Education,True,Assistant Director I,Physics,30,True,GES permanent
+922,T8FC64324,Female,Bachelor's degree + PGDE,True,Assistant Director II,English Language,22,True,GES permanent
+923,TF8F21854,Female,Bachelor's degree + PGDE,True,Superintendent I,English Language,3,False,GES permanent
+924,T845EC48C,Male,Bachelor of Education,True,Assistant Director I,Core Mathematics,26,False,GES permanent
+925,T98BF5574,Female,Bachelor's degree + PGDE,True,Superintendent II,Core Mathematics,2,True,GES permanent
+926,TFDA2754D,Male,Bachelor of Education,True,Assistant Director I,Integrated Science,29,False,GES permanent
+927,T2665F575,Male,HND,False,Not ranked (untrained),Integrated Science,0,False,Community volunteer
+928,T43EB2CC9,Female,Bachelor's degree + PGDE,True,Assistant Director I,Social Studies,32,False,GES permanent
+929,T899D255B,Male,Bachelor's degree + PGDE,True,Assistant Director II,Social Studies,20,False,GES permanent
+930,T74CFBD1D,Male,Bachelor of Education,True,Assistant Director I,Animal Husbandry,29,False,GES permanent
+931,TC016577F,Male,Bachelor's degree + PGDE,True,Superintendent I,Biology,4,False,GES permanent
+932,T28FE184E,Male,Bachelor of Education,True,Assistant Director I,Business Management,33,False,GES permanent
+933,TDD1A173E,Female,Bachelor of Education,True,Senior Superintendent I,Cost Accounting,12,False,GES permanent
+934,TA89E67FE,Female,WASSCE/SSSCE,False,Not ranked (untrained),Chemistry,1,True,National Service
+935,T1AA66111,Female,Bachelor of Education,True,Senior Superintendent II,Christian Religious Studies,7,True,GES permanent
+936,T2A4ABECA,Male,WASSCE/SSSCE,False,Not ranked (untrained),Economics,0,True,National Service
+937,TFC856408,Male,Bachelor of Education,True,Principal Superintendent,Elective Mathematics,16,True,GES permanent
+938,TC4534CC7,Female,Bachelor of Education,True,Assistant Director II,Financial Accounting,20,True,GES permanent
+939,T7C06795C,Female,Bachelor of Education,True,Assistant Director II,Food and Nutrition,21,False,GES permanent
+940,T14048760,Female,Bachelor of Education,True,Superintendent II,General Agriculture,1,False,GES permanent
+941,TC7C0786A,Female,Bachelor of Education,True,Senior Superintendent II,Geography,9,True,GES permanent
+942,T77738238,Male,Bachelor's degree + PGDE,True,Assistant Director I,General Knowledge in Art,29,True,GES permanent
+943,TCD6599C1,Male,Bachelor's degree (non-education),False,Not ranked (untrained),Government,3,True,National Service
+944,TED1B3578,Female,Bachelor of Education,True,Assistant Director I,History,27,False,GES permanent
+945,T4B391019,Male,Bachelor of Education,True,Senior Superintendent I,Literature-in-English,11,False,GES permanent
+946,T92365B1F,Male,Master's degree,True,Superintendent II,Management in Living,1,False,GES permanent
+947,T948248BE,Male,Bachelor's degree + PGDE,True,Assistant Director I,Physics,33,True,GES permanent
+948,TC1651AEB,Male,Diploma in Basic Education,True,Assistant Director I,English Language,31,True,GES permanent
+949,T8ED3858D,Female,Diploma in Basic Education,True,Senior Superintendent II,Mathematics,9,True,GES permanent
+950,TC72DC30B,Male,Master's degree,True,Superintendent I,Integrated Science,3,True,GES permanent
+951,T5C3BB5A2,Male,Diploma in Basic Education,True,Assistant Director I,Social Studies,33,True,GES permanent
+952,TB1FFE6AB,Female,HND,False,Not ranked (untrained),Religious and Moral Education,3,False,Community volunteer
+953,T3DF900AF,Female,Bachelor's degree + PGDE,True,Principal Superintendent,Computing,16,True,GES permanent
+954,TDCC40DB1,Male,Diploma in Basic Education,True,Assistant Director I,Ghanaian Language,25,True,GES permanent
+955,T61B3F0ED,Male,Diploma in Basic Education,True,Principal Superintendent,Career Technology,15,False,GES permanent
+956,T983465FA,Female,Bachelor of Education,True,Superintendent I,Creative Arts and Design,3,True,GES permanent
+957,T6D671591,Male,Diploma in Basic Education,True,Principal Superintendent,French,16,True,GES permanent
+958,T63C1107D,Female,Diploma in Basic Education,True,Senior Superintendent II,English Language,9,True,GES permanent
+959,TFF453765,Female,Bachelor's degree (non-education),False,Not ranked (untrained),Mathematics,3,True,National Service
+960,T8D5862BA,Female,Diploma in Basic Education,True,Assistant Director I,Integrated Science,27,False,GES permanent
+961,T94BFFBFE,Male,Bachelor of Education,True,Senior Superintendent I,Social Studies,13,False,GES permanent
+962,TC57FF942,Female,Diploma in Basic Education,True,Superintendent I,Religious and Moral Education,5,True,GES permanent
+963,TD5D44F75,Male,Bachelor of Education,True,Assistant Director I,Computing,28,False,GES permanent
+964,T791B5487,Male,Bachelor's degree (non-education),False,Not ranked (untrained),Ghanaian Language,3,False,National Service
+965,T847E24A4,Female,HND,False,Not ranked (untrained),Career Technology,3,True,National Service
+966,T3E90519E,Male,Bachelor's degree (non-education),False,Not ranked (untrained),Creative Arts and Design,2,False,National Service
+967,T9BFED4D9,Male,WASSCE/SSSCE,False,Not ranked (untrained),French,1,False,Community volunteer
+968,T8977D4AE,Male,HND,False,Not ranked (untrained),English Language,1,False,Private
+969,TE55D5A37,Female,Diploma in Basic Education,True,Assistant Director II,Mathematics,24,False,Private
+970,TDD4A6141,Male,Diploma in Basic Education,True,Assistant Director I,Integrated Science,29,False,Private
+971,T8C2E392D,Male,Bachelor's degree (non-education),False,Not ranked (untrained),Social Studies,1,False,Private
+972,TA50AD20B,Male,WASSCE/SSSCE,False,Not ranked (untrained),Religious and Moral Education,0,False,Private
+973,TD80E5878,Female,Diploma in Basic Education,True,Assistant Director I,Computing,28,True,Private
+974,T600C058B,Male,Diploma in Basic Education,True,Senior Superintendent II,Ghanaian Language,9,True,Private
+975,T278D5090,Female,Diploma in Basic Education,True,Assistant Director II,Career Technology,24,False,Private
+976,T7D4830C9,Male,Diploma in Basic Education,True,Assistant Director I,Creative Arts and Design,33,False,Private
+977,TA8BEAA04,Male,Bachelor's degree (non-education),False,Not ranked (untrained),French,3,True,Private
+978,T756F2F77,Male,Bachelor of Education,True,Assistant Director I,English Language,25,True,GES permanent
+979,TC6E4492B,Female,Diploma in Basic Education,True,Assistant Director II,Mathematics,23,False,GES permanent
+980,T7E1E057B,Male,Bachelor's degree (non-education),False,Not ranked (untrained),Integrated Science,0,False,National Service
+981,T511A1B40,Male,Diploma in Basic Education,True,Superintendent I,Social Studies,4,True,GES permanent
+982,T79F1A52B,Female,Bachelor of Education,True,Assistant Director II,Religious and Moral Education,21,True,GES permanent
+983,T280C62F6,Male,HND,False,Not ranked (untrained),Computing,1,True,Community volunteer
+984,TE1D491AF,Female,Diploma in Basic Education,True,Superintendent I,Ghanaian Language,6,False,GES permanent
+985,T4A558FD1,Male,Bachelor of Education,True,Assistant Director II,Career Technology,20,False,GES permanent
+986,TC94367D2,Male,Diploma in Basic Education,True,Senior Superintendent II,Creative Arts and Design,9,True,GES permanent
+987,TCF57125A,Male,Diploma in Basic Education,True,Principal Superintendent,French,19,False,GES permanent
+988,T9331B982,Male,Bachelor's degree + PGDE,True,Senior Superintendent II,English Language,8,True,GES permanent
+989,TC01E09A8,Female,Bachelor of Education,True,Superintendent I,English Language,4,True,GES permanent
+990,TF34082CF,Male,HND,False,Not ranked (untrained),Core Mathematics,2,False,National Service
+991,T568DADFE,Female,Bachelor of Education,True,Assistant Director I,Core Mathematics,28,False,GES permanent
+992,TE37CFEAC,Male,Bachelor of Education,True,Senior Superintendent I,Integrated Science,11,False,GES permanent
+993,T8545E2CD,Female,Bachelor's degree + PGDE,True,Assistant Director I,Integrated Science,29,True,GES permanent
+994,T8D882E56,Female,Bachelor's degree + PGDE,True,Assistant Director I,Social Studies,26,True,GES permanent
+995,TD3C7A943,Male,Bachelor of Education,True,Principal Superintendent,Social Studies,18,False,GES permanent
+996,T28E189F5,Female,Bachelor's degree (non-education),False,Not ranked (untrained),Animal Husbandry,2,False,Community volunteer
+997,TCB885590,Male,Bachelor of Education,True,Assistant Director I,Biology,26,False,GES permanent
+998,TE6F836FD,Female,WASSCE/SSSCE,False,Not ranked (untrained),Business Management,1,False,National Service
+999,T3BA05A37,Male,HND,False,Not ranked (untrained),Cost Accounting,0,True,Community volunteer
+1000,TC90A192F,Female,Bachelor of Education,True,Assistant Director II,Chemistry,21,False,GES permanent
+1001,TDE84F658,Female,Bachelor's degree + PGDE,True,Assistant Director II,Christian Religious Studies,24,True,GES permanent
+1002,T5D4F52C0,Female,Bachelor of Education,True,Superintendent I,Economics,3,False,GES permanent
+1003,TA123A148,Male,Bachelor's degree + PGDE,True,Principal Superintendent,Elective Mathematics,18,True,GES permanent
+1004,T6B453821,Female,Master's degree,True,Assistant Director I,Financial Accounting,29,False,GES permanent
+1005,TEA47EAAA,Male,Bachelor of Education,True,Assistant Director II,Food and Nutrition,24,False,GES permanent
+1006,T94D16566,Male,Bachelor's degree + PGDE,True,Assistant Director I,General Agriculture,25,False,GES permanent
+1007,T30FD6BD7,Female,Bachelor of Education,True,Assistant Director I,Geography,27,True,GES permanent
+1008,T25FC0227,Female,Master's degree,True,Senior Superintendent I,General Knowledge in Art,13,False,GES permanent
+1009,T833B5EB0,Female,Bachelor of Education,True,Assistant Director I,Government,28,False,GES permanent
+1010,T647555B4,Male,Bachelor's degree + PGDE,True,Principal Superintendent,History,17,True,GES permanent
+1011,TC5E311B4,Male,WASSCE/SSSCE,False,Not ranked (untrained),Literature-in-English,3,True,National Service
+1012,T8100F7AF,Male,Bachelor of Education,True,Senior Superintendent II,Management in Living,9,False,GES permanent
+1013,T9352DCC0,Female,Bachelor of Education,True,Assistant Director I,Physics,26,False,GES permanent
+1014,T6B9AF989,Female,Master's degree,True,Principal Superintendent,English Language,16,True,GES permanent
+1015,TA9C1DC3A,Male,Bachelor of Education,True,Assistant Director I,English Language,25,False,GES permanent
+1016,TC1F63CAA,Male,Bachelor of Education,True,Principal Superintendent,Core Mathematics,19,True,GES permanent
+1017,T3418892D,Female,Bachelor of Education,True,Assistant Director I,Core Mathematics,25,False,GES permanent
+1018,T40F938AC,Male,Bachelor of Education,True,Principal Superintendent,Integrated Science,15,True,GES permanent
+1019,T8221CB05,Male,Bachelor of Education,True,Superintendent I,Integrated Science,5,False,GES permanent
+1020,T5953B3A1,Male,Bachelor of Education,True,Superintendent I,Social Studies,6,True,GES permanent
+1021,T55B012B7,Female,Master's degree,True,Senior Superintendent II,Social Studies,9,False,GES permanent
+1022,T584D3485,Male,Bachelor of Education,True,Senior Superintendent II,Animal Husbandry,8,True,GES permanent
+1023,T797CD61F,Male,Bachelor of Education,True,Senior Superintendent I,Biology,12,False,GES permanent
+1024,T68905EAE,Male,WASSCE/SSSCE,False,Not ranked (untrained),Business Management,0,True,National Service
+1025,TD5E50FEA,Female,Bachelor's degree + PGDE,True,Senior Superintendent I,Cost Accounting,12,True,GES permanent
+1026,TAA8CF0D0,Female,Bachelor's degree + PGDE,True,Senior Superintendent I,Chemistry,12,True,GES permanent
+1027,T20845900,Female,Master's degree,True,Senior Superintendent II,Christian Religious Studies,8,True,GES permanent
+1028,TA382D0F3,Male,Bachelor's degree + PGDE,True,Assistant Director I,Economics,32,True,GES permanent
+1029,T35F2543C,Female,WASSCE/SSSCE,False,Not ranked (untrained),Elective Mathematics,1,True,National Service
+1030,T1B9FA77F,Male,Master's degree,True,Superintendent I,Financial Accounting,4,False,GES permanent
+1031,T8A6D029E,Female,Bachelor's degree (non-education),False,Not ranked (untrained),Food and Nutrition,0,True,Community volunteer
+1032,TE5D29DA8,Male,Bachelor of Education,True,Senior Superintendent II,General Agriculture,7,False,GES permanent
+1033,TAB50D7C5,Male,WASSCE/SSSCE,False,Not ranked (untrained),Geography,0,False,Community volunteer
+1034,T12434221,Female,Bachelor's degree + PGDE,True,Assistant Director I,General Knowledge in Art,26,False,GES permanent
+1035,T35F97425,Female,Bachelor's degree + PGDE,True,Assistant Director I,Government,30,False,GES permanent
+1036,TC22CFE6E,Female,WASSCE/SSSCE,False,Not ranked (untrained),History,1,False,Community volunteer
+1037,T23CA6E87,Male,WASSCE/SSSCE,False,Not ranked (untrained),Literature-in-English,0,True,Community volunteer
+1038,T6E10700A,Female,Master's degree,True,Senior Superintendent I,Management in Living,11,True,GES permanent
+1039,T5DA28860,Male,Bachelor of Education,True,Principal Superintendent,Physics,15,True,GES permanent

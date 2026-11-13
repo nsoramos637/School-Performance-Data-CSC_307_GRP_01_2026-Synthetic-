@@ -1,0 +1,125 @@
+table_name,table_type,column_name,description,data_type,key_type,references,length,nullable,allowed_values_or_range,unit,source_system,scd_type,business_rule
+dim_date,dimension,date_key,Surrogate key in YYYYMMDD form,INTEGER,PK,,4 bytes,No,20200901 to 20251231,,"Generated calendar (GES calendar, Ghana public holidays)",n/a,
+dim_date,dimension,full_date,Calendar date,DATE,,,4 bytes,No,any valid value,,"Generated calendar (GES calendar, Ghana public holidays)",Type 0,
+dim_date,dimension,day_name,Name of the weekday,VARCHAR(9),,,9,No,Monday; Tuesday; Wednesday; Thursday; Friday; Saturday; Sunday,,"Generated calendar (GES calendar, Ghana public holidays)",Type 0,
+dim_date,dimension,day_of_week,ISO day number (1 = Monday),SMALLINT,,,2 bytes,No,1 to 7,,"Generated calendar (GES calendar, Ghana public holidays)",Type 0,
+dim_date,dimension,day_of_month,Day of the month,SMALLINT,,,2 bytes,No,1 to 31,,"Generated calendar (GES calendar, Ghana public holidays)",Type 0,
+dim_date,dimension,month_number,Month number,SMALLINT,,,2 bytes,No,1 to 12,,"Generated calendar (GES calendar, Ghana public holidays)",Type 0,
+dim_date,dimension,month_name,Month name,VARCHAR(9),,,9,No,free text,,"Generated calendar (GES calendar, Ghana public holidays)",Type 0,
+dim_date,dimension,quarter,Calendar quarter,SMALLINT,,,2 bytes,No,1 to 4,,"Generated calendar (GES calendar, Ghana public holidays)",Type 0,
+dim_date,dimension,year,Calendar year,SMALLINT,,,2 bytes,No,2020 to 2025,,"Generated calendar (GES calendar, Ghana public holidays)",Type 0,
+dim_date,dimension,is_weekend,True on Saturday or Sunday,BOOLEAN,,,1 byte,No,True; False,,"Generated calendar (GES calendar, Ghana public holidays)",Type 0,
+dim_date,dimension,is_public_holiday,True on a Ghana statutory public holiday,BOOLEAN,,,1 byte,No,True; False,,"Generated calendar (GES calendar, Ghana public holidays)",Type 0,Moveable Christian and Muslim holidays are approximate
+dim_date,dimension,holiday_name,Name of the public holiday,VARCHAR(40),,,40,Yes,free text,,"Generated calendar (GES calendar, Ghana public holidays)",Type 0,NULL when is_public_holiday is false
+dim_date,dimension,season,"Upper West season: rainy May-October, dry November-April",VARCHAR(5),,,5,No,Rainy; Dry,,"Generated calendar (GES calendar, Ghana public holidays)",Type 0,Single (unimodal) rainy season in the north
+dim_location,dimension,location_key,Surrogate key,INTEGER,PK,,4 bytes,No,any valid value,,Data warehouse (surrogate key / ETL),n/a,
+dim_location,dimension,region,Administrative region,VARCHAR(20),,,20,No,Upper West,,Ghana Statistical Service district list; GhanaPostGPS,Type 1,
+dim_location,dimension,district_code,Warehouse district code UW01-UW11 (conformed across all CSC 307 topics),VARCHAR(4),,,4,No,UW01; UW02; UW03; UW04; UW05; UW06; UW07; UW08; UW09; UW10; UW11,,Ghana Statistical Service district list; GhanaPostGPS,Type 1,
+dim_location,dimension,district,Municipal or district assembly area,VARCHAR(30),,,30,No,Wa Municipal; Wa East; Wa West; Nadowli-Kaleo; Daffiama-Bussie-Issa; Jirapa; Lambussie; Lawra; Nandom; Sissala East; Sissala West,,Ghana Statistical Service district list; GhanaPostGPS,Type 1,
+dim_location,dimension,district_capital,Capital town of the district,VARCHAR(20),,,20,No,Wa; Funsi; Wechiau; Nadowli; Issa; Jirapa; Lambussie; Lawra; Nandom; Tumu; Gwollu,,Ghana Statistical Service district list; GhanaPostGPS,Type 1,
+dim_location,dimension,town,Town or community where the school is located,VARCHAR(30),,,30,No,free text,,Ghana Statistical Service district list; GhanaPostGPS,Type 1,
+dim_location,dimension,urban_rural,Settlement type,VARCHAR(5),,,5,No,Urban; Rural,,Ghana Statistical Service district list; GhanaPostGPS,Type 1,"District capitals are Urban, all other towns Rural (to confirm in field)"
+dim_location,dimension,electoral_area,Electoral area (placeholder name built from the town),VARCHAR(40),,,40,No,free text,,Ghana Statistical Service district list; GhanaPostGPS,Type 1,Placeholder until the real electoral-area list is collected
+dim_location,dimension,latitude,Approximate latitude of the town,"DECIMAL(8,5)",,,"8,5",No,9.5 to 11.2,decimal degrees,Ghana Statistical Service district list; GhanaPostGPS,Type 1,
+dim_location,dimension,longitude,Approximate longitude of the town,"DECIMAL(8,5)",,,"8,5",No,-3.0 to -1.5,decimal degrees,Ghana Statistical Service district list; GhanaPostGPS,Type 1,
+dim_school,dimension,school_key,Surrogate key (one per version),INTEGER,PK,,4 bytes,No,any valid value,,Data warehouse (surrogate key / ETL),n/a,
+dim_school,dimension,emis_code,Synthetic EMIS-style school code (natural key),VARCHAR(12),,,12,No,free text,,GES EMIS Annual School Census,n/a,Format UWnn-L-sss; stable across versions
+dim_school,dimension,school_name,Generated school name (does not refer to a real school),VARCHAR(40),,,40,No,free text,,GES EMIS Annual School Census,Type 1,
+dim_school,dimension,school_level,Level of education offered,VARCHAR(7),,,7,No,Primary; JHS; SHS,,GES EMIS Annual School Census,Type 1,Primary schools include attached KG1-KG2 classes
+dim_school,dimension,ownership,Ownership / management,VARCHAR(7),,,7,No,Public; Mission; Private,,GES EMIS Annual School Census,Type 1,
+dim_school,dimension,gender_type,Sex of learners admitted,VARCHAR(5),,,5,No,Mixed; Boys; Girls,,GES EMIS Annual School Census,Type 1,
+dim_school,dimension,boarding_status,Day or boarding arrangement,VARCHAR(13),,,13,No,Day; Boarding; Day/Boarding,,GES EMIS Annual School Census,Type 1,
+dim_school,dimension,free_shs_category,Free SHS / CSSPS school category,VARCHAR(14),,,14,No,A; B; C; D; E; Not applicable,,CSSPS / Free SHS placement records,Type 1,"Not applicable for Primary, JHS and private schools"
+dim_school,dimension,has_electricity,School connected to grid or solar power,BOOLEAN,,,1 byte,No,True; False,,GES EMIS Annual School Census,Type 2,
+dim_school,dimension,has_potable_water,Borehole or pipe-borne water on site,BOOLEAN,,,1 byte,No,True; False,,GES EMIS Annual School Census,Type 2,
+dim_school,dimension,has_girls_toilets,Separate toilet facilities for girls,BOOLEAN,,,1 byte,No,True; False,,GES EMIS Annual School Census,Type 2,
+dim_school,dimension,has_ict_lab,Functional ICT laboratory,BOOLEAN,,,1 byte,No,True; False,,GES EMIS Annual School Census,Type 2,
+dim_school,dimension,has_library,Library or reading room,BOOLEAN,,,1 byte,No,True; False,,GES EMIS Annual School Census,Type 2,
+dim_school,dimension,num_classrooms,Usable classrooms,SMALLINT,,,2 bytes,No,2 to 60,classrooms,GES EMIS Annual School Census,Type 2,
+dim_school,dimension,distance_to_district_capital_km,Road distance from school to district capital,"DECIMAL(5,1)",,,"5,1",No,0 to 80,km,GES EMIS Annual School Census,Type 1,
+dim_school,dimension,effective_from,First date this version is valid,DATE,,,4 bytes,No,any valid value,,Data warehouse (surrogate key / ETL),n/a,SCD2 housekeeping
+dim_school,dimension,effective_to,Last date this version is valid (9999-12-31 if current),DATE,,,4 bytes,No,any valid value,,Data warehouse (surrogate key / ETL),n/a,Versions of one emis_code never overlap
+dim_school,dimension,is_current,True for the latest version,BOOLEAN,,,1 byte,No,True; False,,Data warehouse (surrogate key / ETL),n/a,Exactly one current row per emis_code
+dim_school,dimension,version_no,Version number of the school record,SMALLINT,,,2 bytes,No,1 to 5,,Data warehouse (surrogate key / ETL),n/a,
+dim_learner,dimension,learner_key,Surrogate key,INTEGER,PK,,4 bytes,No,any valid value,,Data warehouse (surrogate key / ETL),n/a,
+dim_learner,dimension,learner_pseudo_id,Pseudonymised learner ID (no link to any real person),VARCHAR(12),,,12,No,free text,,WAEC BECE/WASSCE results files,n/a,Random token; never a real index or Ghana Card number
+dim_learner,dimension,sex,Sex of learner,VARCHAR(6),,,6,No,Male; Female,,WAEC BECE/WASSCE results files,Type 1,
+dim_learner,dimension,learner_level,Level at which the candidate sat the examination,VARCHAR(3),,,3,No,JHS; SHS,,WAEC BECE/WASSCE results files,Type 1,
+dim_learner,dimension,age_at_entry,Age when the learner entered JHS1 or SHS1,SMALLINT,,,2 bytes,No,10 to 22,years,GES EMIS Annual School Census,Type 1,
+dim_learner,dimension,disability_type,"Main disability, if any",VARCHAR(12),,,12,No,None; Visual; Hearing; Physical; Intellectual; Other,,GES EMIS Annual School Census,Type 1,
+dim_learner,dimension,home_language,Language spoken at home,VARCHAR(8),,,8,No,Dagaare; Sissali; Waale; Other,,GES EMIS Annual School Census,Type 1,
+dim_learner,dimension,guardian_occupation,Main occupation of parent or guardian,VARCHAR(14),,,14,No,Farmer; Trader; Artisan; Public servant; Unemployed; Other,,GES EMIS Annual School Census,Type 1,
+dim_learner,dimension,distance_home_to_school_km,Distance from home to school,"DECIMAL(4,1)",,,"4,1",No,0 to 25,km,GES EMIS Annual School Census,Type 1,
+dim_learner,dimension,free_shs_beneficiary,Learner benefits from Free SHS,VARCHAR(14),,,14,No,Yes; No; Not applicable,,CSSPS / Free SHS placement records,Type 1,Not applicable for JHS candidates
+dim_learner,dimension,lives_with,Who the learner lives with,VARCHAR(8),,,8,No,Parents; Relative; Other,,GES EMIS Annual School Census,Type 1,
+dim_learner,dimension,shs_programme,SHS programme of study,VARCHAR(20),,,20,No,General Science; General Arts; Business; Agricultural Science; Home Economics; Not applicable,,CSSPS / Free SHS placement records,Type 1,Not applicable for JHS candidates
+dim_subject,dimension,subject_key,Surrogate key,INTEGER,PK,,4 bytes,No,any valid value,,Data warehouse (surrogate key / ETL),n/a,
+dim_subject,dimension,subject_code,"Warehouse subject code (mnemonic, not a WAEC paper code)",VARCHAR(8),,,8,No,free text,,WAEC BECE/WASSCE results files,Type 1,
+dim_subject,dimension,subject_name,Subject name,VARCHAR(30),,,30,No,free text,,WAEC BECE/WASSCE results files,Type 1,
+dim_subject,dimension,exam_level,Examination the subject belongs to,VARCHAR(6),,,6,No,BECE; WASSCE,,WAEC BECE/WASSCE results files,Type 1,
+dim_subject,dimension,core_or_elective,Core (compulsory) or elective,VARCHAR(8),,,8,No,Core; Elective,,WAEC BECE/WASSCE results files,Type 1,
+dim_subject,dimension,stem_flag,"Science, technology, engineering or mathematics subject",BOOLEAN,,,1 byte,No,True; False,,WAEC BECE/WASSCE results files,Type 1,
+dim_examination,dimension,exam_key,Surrogate key,INTEGER,PK,,4 bytes,No,any valid value,,Data warehouse (surrogate key / ETL),n/a,
+dim_examination,dimension,exam_type,Examination type,VARCHAR(8),,,8,No,BECE; WASSCE; Internal,,WAEC BECE/WASSCE results files,Type 1,
+dim_examination,dimension,exam_year,Year the examination was written,SMALLINT,,,2 bytes,No,2021 to 2025,,WAEC BECE/WASSCE results files,Type 1,
+dim_examination,dimension,sitting,Examination sitting,VARCHAR(8),,,8,No,May/June; Nov/Dec; Single,,WAEC BECE/WASSCE results files,Type 1,BECE has a single sitting; school WASSCE is May/June
+dim_examination,dimension,examining_body,Body that sets and marks the examination,VARCHAR(6),,,6,No,WAEC; School,,WAEC BECE/WASSCE results files,Type 1,
+dim_examination,dimension,candidate_class,Class that sits the examination,VARCHAR(4),,,4,No,JHS3; SHS3,,WAEC BECE/WASSCE results files,Type 1,
+dim_examination,dimension,first_paper_date,Date of the first paper (stylised; real calendars shifted after COVID-19),DATE,,,4 bytes,No,any valid value,,WAEC BECE/WASSCE results files,Type 1,
+dim_teacher,dimension,teacher_key,Surrogate key,INTEGER,PK,,4 bytes,No,any valid value,,Data warehouse (surrogate key / ETL),n/a,
+dim_teacher,dimension,staff_pseudo_id,Pseudonymised staff ID (not a real staff or payroll number),VARCHAR(10),,,10,No,free text,,GES HRMIS / CAGD payroll,n/a,
+dim_teacher,dimension,sex,Sex of teacher,VARCHAR(6),,,6,No,Male; Female,,GES HRMIS / CAGD payroll,Type 1,
+dim_teacher,dimension,highest_qualification,Highest academic or professional qualification,VARCHAR(40),,,40,No,Diploma in Basic Education; Bachelor of Education; Bachelor's degree + PGDE; Master's degree; WASSCE/SSSCE; HND; Bachelor's degree (non-education),,GES HRMIS / CAGD payroll,Type 1,
+dim_teacher,dimension,is_trained,Holds a recognised teaching qualification,BOOLEAN,,,1 byte,No,True; False,,GES HRMIS / CAGD payroll,Type 1,Untrained = no Diploma/B.Ed/PGDE
+dim_teacher,dimension,ges_rank,GES rank,VARCHAR(30),,,30,No,Superintendent II; Superintendent I; Senior Superintendent II; Senior Superintendent I; Principal Superintendent; Assistant Director II; Assistant Director I; Not ranked (untrained),,GES HRMIS / CAGD payroll,Type 1,
+dim_teacher,dimension,subject_specialism,Main subject taught,VARCHAR(30),,,30,No,free text,,GES HRMIS / CAGD payroll,Type 1,
+dim_teacher,dimension,years_of_service,Completed years of teaching service at the load date,SMALLINT,,,2 bytes,No,0 to 35,years,GES HRMIS / CAGD payroll,Type 1,
+dim_teacher,dimension,teaches_in_home_district,Teacher is posted in his or her home district,BOOLEAN,,,1 byte,No,True; False,,GES HRMIS / CAGD payroll,Type 1,
+dim_teacher,dimension,employment_type,Employment arrangement,VARCHAR(20),,,20,No,GES permanent; National Service; Community volunteer; Private,,GES HRMIS / CAGD payroll,Type 1,
+dim_academic_term,dimension,term_key,Surrogate key,INTEGER,PK,,4 bytes,No,any valid value,,Data warehouse (surrogate key / ETL),n/a,
+dim_academic_term,dimension,academic_year,"Academic year, e.g. 2023/2024",VARCHAR(9),,,9,No,free text,,"Generated calendar (GES calendar, Ghana public holidays)",Type 0,
+dim_academic_term,dimension,term_number,Term within the academic year,SMALLINT,,,2 bytes,No,1 to 3,,"Generated calendar (GES calendar, Ghana public holidays)",Type 0,
+dim_academic_term,dimension,term_label,"Readable label, e.g. 2023/2024 T1",VARCHAR(20),,,20,No,free text,,"Generated calendar (GES calendar, Ghana public holidays)",Type 0,
+dim_academic_term,dimension,term_start_date,First day of term (stylised GES calendar),DATE,,,4 bytes,No,any valid value,,"Generated calendar (GES calendar, Ghana public holidays)",Type 0,
+dim_academic_term,dimension,term_end_date,Last day of term (stylised GES calendar),DATE,,,4 bytes,No,any valid value,,"Generated calendar (GES calendar, Ghana public holidays)",Type 0,
+fact_exam_result,fact,exam_result_id,Surrogate key of the fact row,BIGINT,PK,,8 bytes,No,any valid value,,Data warehouse (surrogate key / ETL),n/a,
+fact_exam_result,fact,learner_key,Candidate,INTEGER,FK,dim_learner,4 bytes,No,any valid value,,WAEC BECE/WASSCE results files,n/a,
+fact_exam_result,fact,school_key,School version valid on the exam date,INTEGER,FK,dim_school,4 bytes,No,any valid value,,WAEC BECE/WASSCE results files,n/a,Point-in-time join to dim_school
+fact_exam_result,fact,location_key,Location of the school,INTEGER,FK,dim_location,4 bytes,No,any valid value,,GES EMIS Annual School Census,n/a,
+fact_exam_result,fact,subject_key,Subject written,INTEGER,FK,dim_subject,4 bytes,No,any valid value,,WAEC BECE/WASSCE results files,n/a,
+fact_exam_result,fact,exam_key,Examination,INTEGER,FK,dim_examination,4 bytes,No,any valid value,,WAEC BECE/WASSCE results files,n/a,
+fact_exam_result,fact,exam_date_key,Date the subject paper was written,INTEGER,FK,dim_date,4 bytes,No,any valid value,,WAEC BECE/WASSCE results files,n/a,
+fact_exam_result,fact,teacher_key,Teacher who taught the subject to the class,INTEGER,FK,dim_teacher,4 bytes,No,any valid value,,GES HRMIS / CAGD payroll,n/a,
+fact_exam_result,fact,candidate_index_no,Synthetic candidate index number (degenerate dimension),VARCHAR(24),,,24,No,free text,,WAEC BECE/WASSCE results files,n/a,Prefix SYN- marks it as synthetic
+fact_exam_result,fact,raw_score,Combined paper score,"DECIMAL(4,1)",,,"4,1",Yes,0 to 100,marks out of 100,WAEC BECE/WASSCE results files,n/a,NULL only when is_absent is true
+fact_exam_result,fact,grade,"Grade awarded (BECE 1-9, WASSCE A1-F9, ABS = absent)",VARCHAR(3),,,3,No,1; 2; 3; 4; 5; 6; 7; 8; 9; A1; B2; B3; C4; C5; C6; D7; E8; F9; ABS,,WAEC BECE/WASSCE results files,n/a,BECE cut-offs 80/70/65/60/55/50/45/40; WASSCE 75/70/65/60/55/50/45/40
+fact_exam_result,fact,grade_point,"Numeric grade, 1 = best, 9 = worst",SMALLINT,,,2 bytes,Yes,1 to 9,,WAEC BECE/WASSCE results files,n/a,NULL only when is_absent is true
+fact_exam_result,fact,is_passed,Credit pass: BECE grade 1-6 or WASSCE A1-C6,BOOLEAN,,,1 byte,No,True; False,,WAEC BECE/WASSCE results files,n/a,Pass threshold to confirm with WAEC/DEO in field
+fact_exam_result,fact,is_absent,Candidate registered but absent for the paper,BOOLEAN,,,1 byte,No,True; False,,WAEC BECE/WASSCE results files,n/a,
+fact_enrolment,fact,enrolment_id,Surrogate key of the fact row,BIGINT,PK,,8 bytes,No,any valid value,,Data warehouse (surrogate key / ETL),n/a,
+fact_enrolment,fact,school_key,School version valid at term end,INTEGER,FK,dim_school,4 bytes,No,any valid value,,GES EMIS Annual School Census,n/a,
+fact_enrolment,fact,location_key,Location of the school,INTEGER,FK,dim_location,4 bytes,No,any valid value,,GES EMIS Annual School Census,n/a,
+fact_enrolment,fact,term_key,Academic term,INTEGER,FK,dim_academic_term,4 bytes,No,any valid value,,School registers and termly returns to District Education Office,n/a,
+fact_enrolment,fact,snapshot_date_key,Date of the termly return (term end date),INTEGER,FK,dim_date,4 bytes,No,any valid value,,School registers and termly returns to District Education Office,n/a,
+fact_enrolment,fact,class_name,Class (degenerate dimension),VARCHAR(4),,,4,No,KG1; KG2; P1; P2; P3; P4; P5; P6; JHS1; JHS2; JHS3; SHS1; SHS2; SHS3,,School registers and termly returns to District Education Office,n/a,
+fact_enrolment,fact,enrolled_boys,Boys on roll at term end,INTEGER,,,4 bytes,No,0 to 400,pupils,School registers and termly returns to District Education Office,n/a,
+fact_enrolment,fact,enrolled_girls,Girls on roll at term end,INTEGER,,,4 bytes,No,0 to 400,pupils,School registers and termly returns to District Education Office,n/a,
+fact_enrolment,fact,pupils_with_disability,Pupils on roll with a disability,INTEGER,,,4 bytes,No,0 to 50,pupils,School registers and termly returns to District Education Office,n/a,
+fact_enrolment,fact,avg_daily_attendance,Average number of pupils present per school day,"DECIMAL(6,1)",,,"6,1",No,0 to 800,pupils,School registers and termly returns to District Education Office,n/a,Never exceeds enrolled_boys + enrolled_girls
+fact_enrolment,fact,dropouts_boys,Boys who left school during the term without transfer,INTEGER,,,4 bytes,No,0 to 100,pupils,School registers and termly returns to District Education Office,n/a,
+fact_enrolment,fact,dropouts_girls,Girls who left school during the term without transfer,INTEGER,,,4 bytes,No,0 to 100,pupils,School registers and termly returns to District Education Office,n/a,
+fact_enrolment,fact,repeaters,Pupils repeating this class in the academic year,INTEGER,,,4 bytes,No,0 to 100,pupils,School registers and termly returns to District Education Office,n/a,
+fact_enrolment,fact,transfers_in,Pupils who joined from another school during the term,INTEGER,,,4 bytes,No,0 to 50,pupils,School registers and termly returns to District Education Office,n/a,
+fact_enrolment,fact,transfers_out,Pupils who moved to another school during the term,INTEGER,,,4 bytes,No,0 to 50,pupils,School registers and termly returns to District Education Office,n/a,
+fact_staffing,fact,staffing_id,Surrogate key of the fact row,BIGINT,PK,,8 bytes,No,any valid value,,Data warehouse (surrogate key / ETL),n/a,
+fact_staffing,fact,school_key,School version valid at term end,INTEGER,FK,dim_school,4 bytes,No,any valid value,,GES EMIS Annual School Census,n/a,
+fact_staffing,fact,location_key,Location of the school,INTEGER,FK,dim_location,4 bytes,No,any valid value,,GES EMIS Annual School Census,n/a,
+fact_staffing,fact,term_key,Academic term,INTEGER,FK,dim_academic_term,4 bytes,No,any valid value,,GES EMIS Annual School Census,n/a,
+fact_staffing,fact,snapshot_date_key,Date of the staffing return (term end date),INTEGER,FK,dim_date,4 bytes,No,any valid value,,GES EMIS Annual School Census,n/a,
+fact_staffing,fact,trained_teachers,Teachers at post holding a teaching qualification,SMALLINT,,,2 bytes,No,1 to 200,teachers,GES HRMIS / CAGD payroll,n/a,
+fact_staffing,fact,untrained_teachers,Teachers at post without a teaching qualification,SMALLINT,,,2 bytes,No,0 to 100,teachers,GES HRMIS / CAGD payroll,n/a,
+fact_staffing,fact,female_teachers,Female teachers at post,SMALLINT,,,2 bytes,No,0 to 200,teachers,GES HRMIS / CAGD payroll,n/a,
+fact_staffing,fact,teacher_vacancies,"Posts needed to reach the GES pupil-teacher norm, minus teachers at post",SMALLINT,,,2 bytes,No,0 to 100,posts,GES EMIS Annual School Census,n/a,"Norms: Primary 35, JHS 25, SHS 25 pupils per teacher"
+fact_staffing,fact,total_enrolment,Pupils on roll (sum of fact_enrolment for the school and term),INTEGER,,,4 bytes,No,1 to 5000,pupils,School registers and termly returns to District Education Office,n/a,Must reconcile with fact_enrolment
+fact_staffing,fact,pupil_teacher_ratio,total_enrolment / (trained + untrained teachers),"DECIMAL(5,1)",,,"5,1",No,1 to 200,pupils per teacher,GES EMIS Annual School Census,n/a,
+fact_staffing,fact,pupil_trained_teacher_ratio,total_enrolment / trained_teachers,"DECIMAL(5,1)",,,"5,1",No,1 to 300,pupils per trained teacher,GES EMIS Annual School Census,n/a,

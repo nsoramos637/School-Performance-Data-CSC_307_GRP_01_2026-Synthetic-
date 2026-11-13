@@ -1,0 +1,33 @@
+subject_key,subject_code,subject_name,exam_level,core_or_elective,stem_flag
+1,BECE-ENG,English Language,BECE,Core,False
+2,BECE-MAT,Mathematics,BECE,Core,True
+3,BECE-SCI,Integrated Science,BECE,Core,True
+4,BECE-SOC,Social Studies,BECE,Core,False
+5,BECE-RME,Religious and Moral Education,BECE,Core,False
+6,BECE-CMP,Computing,BECE,Core,True
+7,BECE-GHL,Ghanaian Language,BECE,Core,False
+8,BECE-CTE,Career Technology,BECE,Core,False
+9,BECE-CAD,Creative Arts and Design,BECE,Core,False
+10,BECE-FRE,French,BECE,Elective,False
+11,WAS-ENG,English Language,WASSCE,Core,False
+12,WAS-CMT,Core Mathematics,WASSCE,Core,True
+13,WAS-ISC,Integrated Science,WASSCE,Core,True
+14,WAS-SOC,Social Studies,WASSCE,Core,False
+15,WAS-PHY,Physics,WASSCE,Elective,True
+16,WAS-CHE,Chemistry,WASSCE,Elective,True
+17,WAS-BIO,Biology,WASSCE,Elective,True
+18,WAS-EMT,Elective Mathematics,WASSCE,Elective,True
+19,WAS-LIT,Literature-in-English,WASSCE,Elective,False
+20,WAS-GOV,Government,WASSCE,Elective,False
+21,WAS-HIS,History,WASSCE,Elective,False
+22,WAS-ECO,Economics,WASSCE,Elective,False
+23,WAS-CRS,Christian Religious Studies,WASSCE,Elective,False
+24,WAS-GEO,Geography,WASSCE,Elective,False
+25,WAS-FAC,Financial Accounting,WASSCE,Elective,False
+26,WAS-BMG,Business Management,WASSCE,Elective,False
+27,WAS-CAC,Cost Accounting,WASSCE,Elective,False
+28,WAS-GAG,General Agriculture,WASSCE,Elective,True
+29,WAS-ANH,Animal Husbandry,WASSCE,Elective,True
+30,WAS-FNU,Food and Nutrition,WASSCE,Elective,False
+31,WAS-MIL,Management in Living,WASSCE,Elective,False
+32,WAS-GKA,General Knowledge in Art,WASSCE,Elective,False
